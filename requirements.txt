@@ -1,0 +1,6 @@
+google-genai==1.73.1
+numpy==2.4.4
+pyairtable==3.3.0
+python-dotenv==1.2.2
+requests==2.33.1
+scikit-learn==1.8.0
