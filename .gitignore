@@ -1,0 +1,33 @@
+# Environment & Secrets
+.env
+*.env
+credentials.json
+secrets.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+
+# Data (optional - comment out if you want to track)
+data/raw/
+data/processed/
+*.csv
+*.json
+
+# Output
+output/
+plots/
+*.png
+
+# IDE
+.vscode/
+.idea/
+*.swp
