@@ -107,9 +107,9 @@ In `brief_generation.py`:
 GEMINI_MODEL = "models/gemini-2.5-flash"
 ```
 Priorität-Schwellenwerte in ```compute_stats()```:
-20.000 → Hoch
-3.000–20.000 → Mittel 
-< 3.000 → Niedrig
+* 20.000 → Hoch
+* 3.000–20.000 → Mittel 
+* < 3.000 → Niedrig
 
 
 ---
