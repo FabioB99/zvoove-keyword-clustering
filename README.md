@@ -28,11 +28,7 @@ Airtable Keywords
 
 ## Rohdaten & Transparenz
 
-| Datei | Inhalt | Zweck |
-|-------|--------|-------|
-| `data/keywords_full.json` | 536 Keywords mit Search Volume, KD, Search Intent, Kategorie | Basis für Clustering und Brief-Generierung |
-| `data/clusters_output.json` | 30 Cluster mit zugewiesenen Keywords und Ø SV | Clustering-Ergebnis vor Brief-Generierung |
-| `content-briefs/*.md` | 30 fertige Content Briefs als Markdown | Output der Pipeline |
+Die Rohdaten (`data/`) und generierten Briefs (`content-briefs/`) sind im Repository enthalten.
 
 **Priorität-Logik (transparent & nachvollziehbar):**
 - **Hoch**: Gesamtes Search Volume > 20.000/Monat
@@ -78,16 +74,19 @@ cp .env.example .env
 
 ## Ausführen
 
-### Komplette Pipeline (Clustering + Briefs)
+Die beiden Schritte sind unabhängig voneinander und können separat gestartet werden.
+
+### Schritt 1: Clustering
 ```bash
 python main.py
 ```
+Liest Keywords aus Airtable, berechnet Embeddings, clustert und schreibt die Cluster zurück in Airtable. Ergebnis wird in `data/` gespeichert.
 
-### Nur Content Briefs generieren / aktualisieren
+### Schritt 2: Content Briefs generieren / aktualisieren
 ```bash
 python brief_generation.py
 ```
-Das Script ist idempotent — bestehende Briefs werden aktualisiert, neue erstellt. Einmal laufen lassen reicht.
+Setzt voraus dass Schritt 1 bereits gelaufen ist. Das Script ist idempotent — bestehende Briefs werden aktualisiert, neue erstellt. Einmal laufen lassen reicht.
 
 ### Nur Prioritäten aktualisieren (ohne Gemini)
 ```bash
