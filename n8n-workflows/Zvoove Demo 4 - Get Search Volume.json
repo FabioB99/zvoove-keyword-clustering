@@ -1,0 +1,493 @@
+{
+  "name": "Zvoove Demo 4 - Get Search Volume",
+  "nodes": [
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://api.dataforseo.com/v3/keywords_data/clickstream_data/bulk_search_volume/live",
+        "authentication": "predefinedCredentialType",
+        "nodeCredentialType": "dataForSeoApi",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "Content-Type",
+              "value": "application/json"
+            }
+          ]
+        },
+        "sendBody": true,
+        "contentType": "raw",
+        "body": "={{ $json.requestBody }}",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.4,
+      "position": [
+        1008,
+        -64
+      ],
+      "id": "d8d656e2-e4d1-4773-abd7-1017286d9561",
+      "name": "Get Clickstream SV data from DataForSEO",
+      "credentials": {
+        "dataForSeoApi": {
+          "id": "RBYHU0g0djggM1Kl",
+          "name": "DataForSEO account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "jsCode": "const keywords = $input.item.json.keywords;\n\nreturn [{\n  json: {\n    requestBody: JSON.stringify([\n      {\n        location_code: 2276,\n        keywords: keywords\n      }\n    ])\n  }\n}];"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        784,
+        -64
+      ],
+      "id": "0b2f64ab-fc81-4971-b9a9-bdd3eb2e2e3b",
+      "name": "Prepare request body"
+    },
+    {
+      "parameters": {
+        "fieldToSplitOut": "tasks[0].result[0].items",
+        "include": "selectedOtherFields",
+        "fieldsToInclude": "tasks[0].data.location_code",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.splitOut",
+      "typeVersion": 1,
+      "position": [
+        1232,
+        -64
+      ],
+      "id": "d739a750-c67c-4bec-8871-1cbe92eb6ab6",
+      "name": "Extract keywords from response"
+    },
+    {
+      "parameters": {
+        "operation": "update",
+        "base": {
+          "__rl": true,
+          "value": "appCgjGR9rFvho1pa",
+          "mode": "list",
+          "cachedResultName": "Zvoove Content System",
+          "cachedResultUrl": "https://airtable.com/appCgjGR9rFvho1pa"
+        },
+        "table": {
+          "__rl": true,
+          "value": "tblypfYJctBQT5CpU",
+          "mode": "list",
+          "cachedResultName": "Keywords",
+          "cachedResultUrl": "https://airtable.com/appCgjGR9rFvho1pa/tblypfYJctBQT5CpU"
+        },
+        "columns": {
+          "mappingMode": "defineBelow",
+          "value": {
+            "id": "={{ $json.id }}",
+            "Search Volume": "={{ $json.search_volume }}"
+          },
+          "matchingColumns": [
+            "id"
+          ],
+          "schema": [
+            {
+              "id": "id",
+              "displayName": "id",
+              "required": false,
+              "defaultMatch": true,
+              "display": true,
+              "type": "string",
+              "readOnly": true,
+              "removed": false
+            },
+            {
+              "id": "Keyword",
+              "displayName": "Keyword",
+              "required": false,
+              "defaultMatch": false,
+              "canBeUsedToMatch": true,
+              "display": true,
+              "type": "string",
+              "readOnly": false,
+              "removed": true
+            },
+            {
+              "id": "Created",
+              "displayName": "Created",
+              "required": false,
+              "defaultMatch": false,
+              "canBeUsedToMatch": true,
+              "display": true,
+              "type": "string",
+              "readOnly": true,
+              "removed": true
+            },
+            {
+              "id": "Modified",
+              "displayName": "Modified",
+              "required": false,
+              "defaultMatch": false,
+              "canBeUsedToMatch": true,
+              "display": true,
+              "type": "string",
+              "readOnly": true,
+              "removed": true
+            },
+            {
+              "id": "Keyword Category",
+              "displayName": "Keyword Category",
+              "required": false,
+              "defaultMatch": false,
+              "canBeUsedToMatch": true,
+              "display": true,
+              "type": "options",
+              "options": [
+                {
+                  "name": "Primary Keyword",
+                  "value": "Primary Keyword"
+                },
+                {
+                  "name": "Secondary Keyword",
+                  "value": "Secondary Keyword"
+                },
+                {
+                  "name": "Long-tail Keyword",
+                  "value": "Long-tail Keyword"
+                }
+              ],
+              "readOnly": false,
+              "removed": true
+            },
+            {
+              "id": "Search Intent",
+              "displayName": "Search Intent",
+              "required": false,
+              "defaultMatch": false,
+              "canBeUsedToMatch": true,
+              "display": true,
+              "type": "options",
+              "options": [
+                {
+                  "name": "informational",
+                  "value": "informational"
+                },
+                {
+                  "name": "transactional",
+                  "value": "transactional"
+                },
+                {
+                  "name": "navigational",
+                  "value": "navigational"
+                },
+                {
+                  "name": "commercial",
+                  "value": "commercial"
+                }
+              ],
+              "readOnly": false,
+              "removed": true
+            },
+            {
+              "id": "Search Volume",
+              "displayName": "Search Volume",
+              "required": false,
+              "defaultMatch": false,
+              "canBeUsedToMatch": true,
+              "display": true,
+              "type": "number",
+              "readOnly": false,
+              "removed": false
+            },
+            {
+              "id": "Blogposts",
+              "displayName": "Blogposts",
+              "required": false,
+              "defaultMatch": false,
+              "canBeUsedToMatch": true,
+              "display": true,
+              "type": "array",
+              "readOnly": false,
+              "removed": true
+            },
+            {
+              "id": "Blog URL (from Blogposts)",
+              "displayName": "Blog URL (from Blogposts)",
+              "required": false,
+              "defaultMatch": false,
+              "canBeUsedToMatch": true,
+              "display": true,
+              "type": "string",
+              "readOnly": true,
+              "removed": true
+            }
+          ],
+          "attemptToConvertTypes": false,
+          "convertFieldsToString": false
+        },
+        "options": {
+          "typecast": false
+        }
+      },
+      "type": "n8n-nodes-base.airtable",
+      "typeVersion": 2.2,
+      "position": [
+        1680,
+        -64
+      ],
+      "id": "5f9a4e6b-e96b-456c-9c5c-9c1d6da0c605",
+      "name": "Add search volume to database",
+      "credentials": {
+        "airtableTokenApi": {
+          "id": "HWzPpcqFj7r39bDf",
+          "name": "Airtable Personal Access Token account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "jsCode": "const items = $input.all();\n\nconst keywords = items.map(item => item.json.fields.Keyword);\nconst idMapping = {};\n\n// Erstelle Mapping: keyword (lowercase) → record ID\nitems.forEach(item => {\n  idMapping[item.json.fields.Keyword.toLowerCase()] = item.json.id;\n});\n\nreturn [{\n  json: {\n    keywords: keywords,\n    idMapping: idMapping\n  }\n}];"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        560,
+        -64
+      ],
+      "id": "b7e3d3c4-7ab5-4d1d-af18-94f8a474f18f",
+      "name": "Prepare keyword array with IDs"
+    },
+    {
+      "parameters": {
+        "operation": "search",
+        "base": {
+          "__rl": true,
+          "value": "appCgjGR9rFvho1pa",
+          "mode": "list",
+          "cachedResultName": "Zvoove Content System",
+          "cachedResultUrl": "https://airtable.com/appCgjGR9rFvho1pa"
+        },
+        "table": {
+          "__rl": true,
+          "value": "tblypfYJctBQT5CpU",
+          "mode": "list",
+          "cachedResultName": "Keywords",
+          "cachedResultUrl": "https://airtable.com/appCgjGR9rFvho1pa/tblypfYJctBQT5CpU"
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.airtable",
+      "typeVersion": 2.2,
+      "position": [
+        -112,
+        -64
+      ],
+      "id": "4139edbf-c2e4-4916-96a7-cf1e65bdbe5e",
+      "name": "Get all keywords",
+      "alwaysOutputData": false,
+      "executeOnce": true,
+      "credentials": {
+        "airtableTokenApi": {
+          "id": "HWzPpcqFj7r39bDf",
+          "name": "Airtable Personal Access Token account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "sortFieldsUi": {
+          "sortField": [
+            {
+              "fieldName": "fields.Keyword"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.sort",
+      "typeVersion": 1,
+      "position": [
+        336,
+        -64
+      ],
+      "id": "635eadec-7c57-4b40-986b-18be77f3f509",
+      "name": "Sort by keyword"
+    },
+    {
+      "parameters": {
+        "inputSource": "passthrough"
+      },
+      "type": "n8n-nodes-base.executeWorkflowTrigger",
+      "typeVersion": 1.1,
+      "position": [
+        -336,
+        -64
+      ],
+      "id": "1b36f64c-569c-4e97-9d69-cbc5d43ef3d8",
+      "name": "When executed by \"Main\" workflow"
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict",
+            "version": 3
+          },
+          "conditions": [
+            {
+              "id": "8de4d368-5530-4d50-85c4-0fc6046d8dde",
+              "leftValue": "={{ $json.fields['Search Volume'] }}",
+              "rightValue": "",
+              "operator": {
+                "type": "number",
+                "operation": "empty",
+                "singleValue": true
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.filter",
+      "typeVersion": 2.3,
+      "position": [
+        112,
+        -64
+      ],
+      "id": "36b1a08c-1d47-4c33-8182-8f358e685777",
+      "name": "Filter for missing search volume"
+    },
+    {
+      "parameters": {
+        "jsCode": "const volumeItems = $input.all();\nconst idMapping = $('Prepare keyword array with IDs').first().json.idMapping;\n\nreturn volumeItems.map(item => {\n  const keyword = item.json['tasks[0].result[0].items'].keyword;\n  const searchVolume = item.json['tasks[0].result[0].items'].search_volume;\n  \n  return {\n    json: {\n      id: idMapping[keyword.toLowerCase()],\n      keyword: keyword,  // ← Hinzugefügt für Debugging\n      search_volume: searchVolume\n    }\n  };\n});"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        1456,
+        -64
+      ],
+      "id": "53f64490-3cae-4e97-b785-11eb5d734094",
+      "name": "Join output data with IDs"
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "Get Clickstream SV data from DataForSEO": {
+      "main": [
+        [
+          {
+            "node": "Extract keywords from response",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Prepare request body": {
+      "main": [
+        [
+          {
+            "node": "Get Clickstream SV data from DataForSEO",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Extract keywords from response": {
+      "main": [
+        [
+          {
+            "node": "Join output data with IDs",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Prepare keyword array with IDs": {
+      "main": [
+        [
+          {
+            "node": "Prepare request body",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Get all keywords": {
+      "main": [
+        [
+          {
+            "node": "Filter for missing search volume",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Sort by keyword": {
+      "main": [
+        [
+          {
+            "node": "Prepare keyword array with IDs",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "When executed by \"Main\" workflow": {
+      "main": [
+        [
+          {
+            "node": "Get all keywords",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Filter for missing search volume": {
+      "main": [
+        [
+          {
+            "node": "Sort by keyword",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Join output data with IDs": {
+      "main": [
+        [
+          {
+            "node": "Add search volume to database",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1",
+    "binaryMode": "separate",
+    "availableInMCP": false
+  },
+  "versionId": "e19ecdd0-013c-418b-84cd-fd7303630a86",
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "becc27736ffda7668b0b6ed7b310cfe94180ed0420664b77b77cb848c4be100c"
+  },
+  "id": "6K7YXvW9dBM9yBOf",
+  "tags": []
+}

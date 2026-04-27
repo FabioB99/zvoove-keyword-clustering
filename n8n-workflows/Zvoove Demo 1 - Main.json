@@ -1,0 +1,200 @@
+{
+  "name": "Zvoove Demo 1 - Main",
+  "nodes": [
+    {
+      "parameters": {
+        "workflowId": {
+          "__rl": true,
+          "value": "BKyHcDdmtzvFQvIj",
+          "mode": "list",
+          "cachedResultUrl": "/workflow/BKyHcDdmtzvFQvIj",
+          "cachedResultName": "Zvoove Demo 2 - Scrape Blog Content"
+        },
+        "workflowInputs": {
+          "mappingMode": "defineBelow",
+          "value": {},
+          "matchingColumns": [],
+          "schema": [],
+          "attemptToConvertTypes": false,
+          "convertFieldsToString": true
+        },
+        "options": {
+          "waitForSubWorkflow": true
+        }
+      },
+      "type": "n8n-nodes-base.executeWorkflow",
+      "typeVersion": 1.3,
+      "position": [
+        64,
+        -64
+      ],
+      "id": "1173aabf-bc3b-4e7a-9c3c-8b21703b99d5",
+      "name": "Scrape Blog Posts"
+    },
+    {
+      "parameters": {
+        "workflowId": {
+          "__rl": true,
+          "value": "chEdwZQdtAG3WhzR",
+          "mode": "list",
+          "cachedResultUrl": "/workflow/chEdwZQdtAG3WhzR",
+          "cachedResultName": "Zvoove Demo 3 - Extract Keywords"
+        },
+        "workflowInputs": {
+          "mappingMode": "defineBelow",
+          "value": {},
+          "matchingColumns": [],
+          "schema": [],
+          "attemptToConvertTypes": false,
+          "convertFieldsToString": true
+        },
+        "options": {
+          "waitForSubWorkflow": true
+        }
+      },
+      "type": "n8n-nodes-base.executeWorkflow",
+      "typeVersion": 1.3,
+      "position": [
+        288,
+        -64
+      ],
+      "id": "ef8959ea-ba72-4d16-a651-9681df9ff920",
+      "name": "Extract Keywords"
+    },
+    {
+      "parameters": {
+        "workflowId": {
+          "__rl": true,
+          "value": "6K7YXvW9dBM9yBOf",
+          "mode": "list",
+          "cachedResultUrl": "/workflow/6K7YXvW9dBM9yBOf",
+          "cachedResultName": "Zvoove Demo 4 - Get Search Volume"
+        },
+        "workflowInputs": {
+          "mappingMode": "defineBelow",
+          "value": {},
+          "matchingColumns": [],
+          "schema": [],
+          "attemptToConvertTypes": false,
+          "convertFieldsToString": true
+        },
+        "options": {
+          "waitForSubWorkflow": true
+        }
+      },
+      "type": "n8n-nodes-base.executeWorkflow",
+      "typeVersion": 1.3,
+      "position": [
+        512,
+        -64
+      ],
+      "id": "280331eb-7a3c-4638-a8df-06fc1f045c5a",
+      "name": "Get Search Volumes"
+    },
+    {
+      "parameters": {
+        "workflowId": {
+          "__rl": true,
+          "value": "0v9sQUeBrug2hc0k",
+          "mode": "list",
+          "cachedResultUrl": "/workflow/0v9sQUeBrug2hc0k",
+          "cachedResultName": "Zvoove Demo 5 - Get KW Difficuly"
+        },
+        "workflowInputs": {
+          "mappingMode": "defineBelow",
+          "value": {},
+          "matchingColumns": [],
+          "schema": [],
+          "attemptToConvertTypes": false,
+          "convertFieldsToString": true
+        },
+        "options": {
+          "waitForSubWorkflow": true
+        }
+      },
+      "type": "n8n-nodes-base.executeWorkflow",
+      "typeVersion": 1.3,
+      "position": [
+        736,
+        -64
+      ],
+      "id": "a62887ed-540a-4673-92a2-ced97508306e",
+      "name": "Get KW Difficulties"
+    },
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {}
+          ]
+        }
+      },
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.3,
+      "position": [
+        -160,
+        -64
+      ],
+      "id": "e05ecf6c-eb2c-4ca1-9bd3-1a29c6cc6f3b",
+      "name": "Run daily at Midnight"
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "Scrape Blog Posts": {
+      "main": [
+        [
+          {
+            "node": "Extract Keywords",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Extract Keywords": {
+      "main": [
+        [
+          {
+            "node": "Get Search Volumes",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Get Search Volumes": {
+      "main": [
+        [
+          {
+            "node": "Get KW Difficulties",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Run daily at Midnight": {
+      "main": [
+        [
+          {
+            "node": "Scrape Blog Posts",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1",
+    "binaryMode": "separate"
+  },
+  "versionId": "a4e1b8b3-8979-4768-b567-20c71db24410",
+  "meta": {
+    "instanceId": "becc27736ffda7668b0b6ed7b310cfe94180ed0420664b77b77cb848c4be100c"
+  },
+  "id": "X1IHcjhWNbmdZfCl",
+  "tags": []
+}

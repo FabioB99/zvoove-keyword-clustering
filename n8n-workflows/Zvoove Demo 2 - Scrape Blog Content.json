@@ -1,0 +1,646 @@
+{
+  "name": "Zvoove Demo 2 - Scrape Blog Content",
+  "nodes": [
+    {
+      "parameters": {
+        "url": "={{ $json.sitemapUrl }}",
+        "options": {}
+      },
+      "id": "c1c03ba1-be79-40a3-b961-eed5ed371638",
+      "name": "Get Sitemap",
+      "type": "n8n-nodes-base.httpRequest",
+      "position": [
+        -1456,
+        -16
+      ],
+      "typeVersion": 4.2
+    },
+    {
+      "parameters": {
+        "options": {
+          "ignoreAttrs": true,
+          "mergeAttrs": true,
+          "normalize": true,
+          "normalizeTags": true,
+          "trim": true
+        }
+      },
+      "id": "5e0c3d65-389f-4781-96b4-ed1bbfa034e8",
+      "name": "Convert Sitemap to JSON",
+      "type": "n8n-nodes-base.xml",
+      "position": [
+        -1232,
+        -16
+      ],
+      "typeVersion": 1
+    },
+    {
+      "parameters": {
+        "operation": "rowNotExists",
+        "dataTableId": {
+          "__rl": true,
+          "value": "s05FaCk6rxnYO9kr",
+          "mode": "list",
+          "cachedResultName": "Zvoove Demo - Processed Blogposts",
+          "cachedResultUrl": "/projects/e7QOXATfnuHSyNXM/datatables/s05FaCk6rxnYO9kr"
+        },
+        "filters": {
+          "conditions": [
+            {
+              "keyName": "url",
+              "keyValue": "={{ $json.loc }}"
+            }
+          ]
+        }
+      },
+      "type": "n8n-nodes-base.dataTable",
+      "typeVersion": 1.1,
+      "position": [
+        -560,
+        -16
+      ],
+      "id": "1652bd39-d6b5-4b6e-9e88-8ffe1b8065a0",
+      "name": "Check if blogpost has been processed"
+    },
+    {
+      "parameters": {
+        "content": "## Get new Blogposts",
+        "height": 272,
+        "width": 1344
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "position": [
+        -1712,
+        -80
+      ],
+      "typeVersion": 1,
+      "id": "7044542d-65ac-455a-be47-c6853f20342c",
+      "name": "Sticky Note"
+    },
+    {
+      "parameters": {
+        "content": "## Scrape blog data and upload to Airtable",
+        "height": 240,
+        "width": 1568
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "position": [
+        -1712,
+        240
+      ],
+      "typeVersion": 1,
+      "id": "96229c65-8a6f-45f5-aeb4-348454882ce9",
+      "name": "Sticky Note1"
+    },
+    {
+      "parameters": {
+        "url": "={{ $('Scrape page content').item.json.data.metadata.sourceURL }}",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.4,
+      "position": [
+        -1232,
+        304
+      ],
+      "id": "40864741-c87b-4ab7-88fb-6b53c9237113",
+      "name": "Get additional metadata"
+    },
+    {
+      "parameters": {
+        "dataTableId": {
+          "__rl": true,
+          "value": "s05FaCk6rxnYO9kr",
+          "mode": "list",
+          "cachedResultName": "Zvoove Demo - Processed Blogposts",
+          "cachedResultUrl": "/projects/e7QOXATfnuHSyNXM/datatables/s05FaCk6rxnYO9kr"
+        },
+        "columns": {
+          "mappingMode": "defineBelow",
+          "value": {
+            "url": "={{ $json.fields['Blog URL'] }}"
+          },
+          "matchingColumns": [
+            "url"
+          ],
+          "schema": [
+            {
+              "id": "url",
+              "displayName": "url",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "readOnly": false,
+              "removed": false
+            }
+          ],
+          "attemptToConvertTypes": false,
+          "convertFieldsToString": false
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.dataTable",
+      "typeVersion": 1.1,
+      "position": [
+        -336,
+        304
+      ],
+      "id": "11d59aae-9071-4f62-9284-4e4f377eb4b0",
+      "name": "Add blogpost to processed list"
+    },
+    {
+      "parameters": {
+        "mode": "runOnceForEachItem",
+        "jsCode": "const markdown = $input.item.json.data.markdown;\n\n// Strategie 1: Finde H1 (Artikel-Start)\nconst h1Match = markdown.match(/\\n# [^\\n]+/);\nconst h1Index = h1Match ? markdown.indexOf(h1Match[0]) : -1;\n\n// Strategie 2: Footer-Cutoff mit mehreren Fallbacks\nconst cutoffKeywords = [\n  '## Quellen',\n  '## Weiterführende',\n  'Weitere Beiträge',\n  'Sie finden unsere Artikel spannend?',\n  'Diesen Beitrag teilen',\n  'Autor\\n\\n',\n  'Lösungen für',\n  '## Autor',\n  '_Quelle Foto:'\n];\n\nlet cleanedMarkdown = markdown;\n\n// Schritt 1: Schneide ab H1 (wenn gefunden)\nif (h1Index > 0) {\n  cleanedMarkdown = markdown.substring(h1Index).trim();\n} else {\n  // Fallback: Schneide ab erstem H2 wenn kein H1\n  const firstH2Index = markdown.indexOf('\\n## ');\n  if (firstH2Index > 0) {\n    cleanedMarkdown = markdown.substring(firstH2Index).trim();\n  }\n}\n\n// Schritt 2: Finde frühesten Cutoff-Punkt (Footer)\nlet earliestCutoff = cleanedMarkdown.length;\nfor (let keyword of cutoffKeywords) {\n  const cutoffIndex = cleanedMarkdown.indexOf(keyword);\n  if (cutoffIndex > 0 && cutoffIndex < earliestCutoff) {\n    earliestCutoff = cutoffIndex;\n  }\n}\n\n// Schneide beim frühesten Footer-Marker ab\nif (earliestCutoff < cleanedMarkdown.length) {\n  cleanedMarkdown = cleanedMarkdown.substring(0, earliestCutoff).trim();\n}\n\n// Schritt 3: Entferne trailing Whitespace und Newlines\ncleanedMarkdown = cleanedMarkdown.replace(/\\n{3,}/g, '\\n\\n').trim();\n\nreturn {\n  cleanedMarkdown: cleanedMarkdown,\n  originalLength: markdown.length,\n  cleanedLength: cleanedMarkdown.length,\n  reductionPercent: Math.round((1 - cleanedMarkdown.length / markdown.length) * 100)\n};"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        -1456,
+        304
+      ],
+      "id": "846a9b79-6e89-4832-bae1-612fce01187e",
+      "name": "Clean up blog content"
+    },
+    {
+      "parameters": {
+        "operation": "create",
+        "base": {
+          "__rl": true,
+          "value": "appCgjGR9rFvho1pa",
+          "mode": "list",
+          "cachedResultName": "Zvoove Content System",
+          "cachedResultUrl": "https://airtable.com/appCgjGR9rFvho1pa"
+        },
+        "table": {
+          "__rl": true,
+          "value": "tbl2dvPncJgjv3JhL",
+          "mode": "list",
+          "cachedResultName": "Blogposts",
+          "cachedResultUrl": "https://airtable.com/appCgjGR9rFvho1pa/tbl2dvPncJgjv3JhL"
+        },
+        "columns": {
+          "mappingMode": "defineBelow",
+          "value": {
+            "Headline": "={{ $json.headline }}",
+            "Blog URL": "={{ $json.url }}",
+            "Author": "={{ $json.author }}",
+            "Date Published": "={{ new Date($json.datePublished).toISOString().split('T')[0] }}",
+            "Date Modified": "={{ new Date($json.dateModified).toISOString().split('T')[0] }}",
+            "Meta Title": "={{ $json.metaTitle }}",
+            "Meta Description": "={{ $json.metaDescription }}",
+            "Blog Content": "={{ $json.content }}"
+          },
+          "matchingColumns": [],
+          "schema": [
+            {
+              "id": "Headline",
+              "displayName": "Headline",
+              "required": false,
+              "defaultMatch": false,
+              "canBeUsedToMatch": true,
+              "display": true,
+              "type": "string",
+              "readOnly": false,
+              "removed": false
+            },
+            {
+              "id": "Blog URL",
+              "displayName": "Blog URL",
+              "required": false,
+              "defaultMatch": false,
+              "canBeUsedToMatch": true,
+              "display": true,
+              "type": "string",
+              "readOnly": false,
+              "removed": false
+            },
+            {
+              "id": "Author",
+              "displayName": "Author",
+              "required": false,
+              "defaultMatch": false,
+              "canBeUsedToMatch": true,
+              "display": true,
+              "type": "string",
+              "readOnly": false,
+              "removed": false
+            },
+            {
+              "id": "Date Published",
+              "displayName": "Date Published",
+              "required": false,
+              "defaultMatch": false,
+              "canBeUsedToMatch": true,
+              "display": true,
+              "type": "dateTime",
+              "readOnly": false,
+              "removed": false
+            },
+            {
+              "id": "Date Modified",
+              "displayName": "Date Modified",
+              "required": false,
+              "defaultMatch": false,
+              "canBeUsedToMatch": true,
+              "display": true,
+              "type": "dateTime",
+              "readOnly": false,
+              "removed": false
+            },
+            {
+              "id": "Meta Title",
+              "displayName": "Meta Title",
+              "required": false,
+              "defaultMatch": false,
+              "canBeUsedToMatch": true,
+              "display": true,
+              "type": "string",
+              "readOnly": false,
+              "removed": false
+            },
+            {
+              "id": "Meta Description",
+              "displayName": "Meta Description",
+              "required": false,
+              "defaultMatch": false,
+              "canBeUsedToMatch": true,
+              "display": true,
+              "type": "string",
+              "readOnly": false,
+              "removed": false
+            },
+            {
+              "id": "Blog Content",
+              "displayName": "Blog Content",
+              "required": false,
+              "defaultMatch": false,
+              "canBeUsedToMatch": true,
+              "display": true,
+              "type": "string",
+              "readOnly": false,
+              "removed": false
+            }
+          ],
+          "attemptToConvertTypes": false,
+          "convertFieldsToString": false
+        },
+        "options": {
+          "typecast": true
+        }
+      },
+      "type": "n8n-nodes-base.airtable",
+      "typeVersion": 2.2,
+      "position": [
+        -560,
+        304
+      ],
+      "id": "dfd06ff7-d7c8-4169-8aea-99b4a8e101cf",
+      "name": "Add to blogpost database",
+      "credentials": {
+        "airtableTokenApi": {
+          "id": "HWzPpcqFj7r39bDf",
+          "name": "Airtable Personal Access Token account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "fieldToSplitOut": "urlset.url",
+        "options": {}
+      },
+      "id": "2b9115f1-be7b-491b-b65a-f4de6bbbd844",
+      "name": "Extract Sitemap links",
+      "type": "n8n-nodes-base.splitOut",
+      "position": [
+        -1008,
+        -16
+      ],
+      "typeVersion": 1
+    },
+    {
+      "parameters": {
+        "inputSource": "passthrough"
+      },
+      "type": "n8n-nodes-base.executeWorkflowTrigger",
+      "typeVersion": 1.1,
+      "position": [
+        -1920,
+        -16
+      ],
+      "id": "bd0b42f9-f839-47b5-8493-bc2cc202c3ea",
+      "name": "When executed by \"Main\" workflow"
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "d6c5ac86-6d67-42fb-96ec-9826caf452e2",
+              "name": "sitemapUrl",
+              "type": "string",
+              "value": "https://zvoove.de/blog-sitemap1.xml"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "562a0eba-e14e-458e-8e8b-6da3dd0582d9",
+      "name": "Define Sitemap URL",
+      "type": "n8n-nodes-base.set",
+      "position": [
+        -1680,
+        -16
+      ],
+      "typeVersion": 3.4
+    },
+    {
+      "parameters": {
+        "sortFieldsUi": {
+          "sortField": [
+            {
+              "fieldName": "lastmod",
+              "order": "descending"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.sort",
+      "typeVersion": 1,
+      "position": [
+        -784,
+        -16
+      ],
+      "id": "1ad55414-454e-4fb9-82d0-6ce3402ac00d",
+      "name": "Sort by last modified date"
+    },
+    {
+      "parameters": {
+        "operation": "scrape",
+        "url": "={{ $json.loc }}",
+        "requestOptions": {}
+      },
+      "type": "@mendable/n8n-nodes-firecrawl.firecrawl",
+      "typeVersion": 1,
+      "position": [
+        -1680,
+        304
+      ],
+      "id": "4a0470c4-0a60-4b06-a31b-17448642f99f",
+      "name": "Scrape page content",
+      "retryOnFail": true,
+      "maxTries": 5,
+      "waitBetweenTries": 5000,
+      "credentials": {
+        "firecrawlApi": {
+          "id": "otWRKp8R6NlYc4Xs",
+          "name": "Firecrawl account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "mode": "runOnceForEachItem",
+        "jsCode": "const html = $input.item.json.data;\nlet result = {\n  datePublished: null,\n  dateModified: null,\n  author: \"Die Redaktion\", \n  authorUrl: null,\n  image: null,\n  headline: null\n};\n\n// 1. JSON-LD EXTRAKTION\nconst allScripts = html.match(/<script type=\"application\\/ld\\+json\">([\\s\\S]*?)<\\/script>/g);\n\nif (allScripts) {\n  for (let scriptTag of allScripts) {\n    try {\n      const jsonContent = scriptTag.replace(/<script.*?>|<\\/script>/g, '').trim();\n      const jsonLd = JSON.parse(jsonContent);\n      \n      let article = null;\n      if (jsonLd['@type'] === 'Article' || jsonLd['@type'] === 'BlogPosting') {\n        article = jsonLd;\n      } else if (jsonLd['@graph'] && Array.isArray(jsonLd['@graph'])) {\n        article = jsonLd['@graph'].find(item => item['@type'] === 'Article' || item['@type'] === 'BlogPosting');\n      }\n\n      if (article) {\n        result.datePublished = article.datePublished || null;\n        result.dateModified = article.dateModified || null;\n        \n        const rawAuthor = typeof article.author === 'string' ? article.author : (article.author?.name || null);\n        if (rawAuthor && rawAuthor.toLowerCase() !== 'zvoove') {\n          result.author = rawAuthor;\n        }\n\n        result.authorUrl = article.author?.url || null;\n        result.image = article.image?.url || (typeof article.image === 'string' ? article.image : null);\n        result.headline = article.headline || null;\n        break; \n      }\n    } catch (e) { continue; }\n  }\n}\n\n// 2. FALLBACKS (Regex für \"Veröffentlicht: ...\" etc.)\nconst extractIso = (label, htmlText) => {\n  const regex = new RegExp(`${label}:\\\\s*(\\\\d{2})\\\\.(\\\\d{2})\\\\.(\\\\d{4})`, 'i');\n  const match = htmlText.match(regex);\n  return match ? `${match[3]}-${match[2]}-${match[1]}` : null;\n};\n\nif (!result.datePublished) result.datePublished = extractIso('Veröffentlicht', html);\nif (!result.dateModified) result.dateModified = extractIso('Zuletzt geändert', html);\n\n// 3. DATUM CLEANUP & 1970-CHECK\n// Wir bereinigen das Datum nur, wenn es kein Null-Wert ist\nconst cleanDate = (dateStr) => {\n  if (!dateStr || dateStr === \"\" || dateStr === \"null\") return null;\n  // Falls es ein ISO String mit Zeit ist (T12:00...), schneide die Zeit ab\n  if (dateStr.includes('T')) {\n    return dateStr.split('T')[0];\n  }\n  return dateStr;\n};\n\nresult.datePublished = cleanDate(result.datePublished);\nresult.dateModified = cleanDate(result.dateModified);\n\n// Headline Fallback\nif (!result.headline) {\n  const titleMatch = html.match(/<title>(.*?)<\\/title>/i);\n  result.headline = titleMatch ? titleMatch[1].split('|')[0].trim() : null;\n}\n\nreturn result;"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        -1008,
+        304
+      ],
+      "id": "f9098e3e-446b-4f93-b9cb-d46a311635a7",
+      "name": "Extract metadata from response"
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "e1a98744-274b-4f16-8c4c-8d66a988da43",
+              "name": "datePublished",
+              "value": "={{ $json.datePublished }}",
+              "type": "string"
+            },
+            {
+              "id": "c7b46f8d-dd41-4458-baa9-1043646029ed",
+              "name": "dateModified",
+              "value": "={{ $json.dateModified }}",
+              "type": "string"
+            },
+            {
+              "id": "11fba041-1509-41f8-b223-6c427a6bb673",
+              "name": "author",
+              "value": "={{ $json.author }}",
+              "type": "string"
+            },
+            {
+              "id": "b270941d-ebb4-4588-9406-67c1fc60d848",
+              "name": "headline",
+              "value": "={{ $json.headline || $node[\"Get additional metadata\"].json.metaTitle }}",
+              "type": "string"
+            },
+            {
+              "id": "949c8a96-f01b-4b94-bf80-556585682922",
+              "name": "content",
+              "value": "={{ $('Clean up blog content').item.json.cleanedMarkdown }}",
+              "type": "string"
+            },
+            {
+              "id": "bbe6b15c-ab95-43e6-8389-00cd501b0042",
+              "name": "metaTitle",
+              "value": "={{ $('Scrape page content').item.json.data.metadata.title }}",
+              "type": "string"
+            },
+            {
+              "id": "25c6b5f9-ae25-40c7-a1d2-1963bb5043de",
+              "name": "metaDescription",
+              "value": "={{ $('Scrape page content').item.json.data.metadata.description }}",
+              "type": "string"
+            },
+            {
+              "id": "dba5d8f3-835e-45de-9aad-5015feca5aae",
+              "name": "url",
+              "value": "={{ $('Scrape page content').item.json.data.metadata.sourceURL }}",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        -784,
+        304
+      ],
+      "id": "47836aa6-5b06-493b-b5b5-2882e7d1c4ff",
+      "name": "Combine data for upload"
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "Get Sitemap": {
+      "main": [
+        [
+          {
+            "node": "Convert Sitemap to JSON",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Convert Sitemap to JSON": {
+      "main": [
+        [
+          {
+            "node": "Extract Sitemap links",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Check if blogpost has been processed": {
+      "main": [
+        [
+          {
+            "node": "Scrape page content",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Get additional metadata": {
+      "main": [
+        [
+          {
+            "node": "Extract metadata from response",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Add blogpost to processed list": {
+      "main": [
+        []
+      ]
+    },
+    "Clean up blog content": {
+      "main": [
+        [
+          {
+            "node": "Get additional metadata",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Add to blogpost database": {
+      "main": [
+        [
+          {
+            "node": "Add blogpost to processed list",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Extract Sitemap links": {
+      "main": [
+        [
+          {
+            "node": "Sort by last modified date",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "When executed by \"Main\" workflow": {
+      "main": [
+        [
+          {
+            "node": "Define Sitemap URL",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Define Sitemap URL": {
+      "main": [
+        [
+          {
+            "node": "Get Sitemap",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Sort by last modified date": {
+      "main": [
+        [
+          {
+            "node": "Check if blogpost has been processed",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Scrape page content": {
+      "main": [
+        [
+          {
+            "node": "Clean up blog content",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Extract metadata from response": {
+      "main": [
+        [
+          {
+            "node": "Combine data for upload",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Combine data for upload": {
+      "main": [
+        [
+          {
+            "node": "Add to blogpost database",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1",
+    "binaryMode": "separate"
+  },
+  "versionId": "1ecb0c30-86af-45c3-ab72-3794892f80bb",
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "becc27736ffda7668b0b6ed7b310cfe94180ed0420664b77b77cb848c4be100c"
+  },
+  "id": "BKyHcDdmtzvFQvIj",
+  "tags": []
+}

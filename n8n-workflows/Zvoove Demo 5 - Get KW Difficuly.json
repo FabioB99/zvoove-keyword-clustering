@@ -1,0 +1,502 @@
+{
+  "name": "Zvoove Demo 5 - Get KW Difficuly",
+  "nodes": [
+    {
+      "parameters": {
+        "jsCode": "const items = $input.all();\n\nconst keywords = items.map(item => item.json.fields.Keyword);\nconst idMapping = {};\n\n// Erstelle Mapping: keyword (lowercase) → record ID\nitems.forEach(item => {\n  idMapping[item.json.fields.Keyword.toLowerCase()] = item.json.id;\n});\n\nreturn [{\n  json: {\n    keywords: keywords,\n    idMapping: idMapping\n  }\n}];"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        768,
+        -128
+      ],
+      "id": "2722c60b-eb33-4de5-a684-f027477ad3f5",
+      "name": "Prepare keyword array with IDs"
+    },
+    {
+      "parameters": {
+        "jsCode": "const keywords = $input.item.json.keywords;\n\nreturn [{\n  json: {\n    requestBody: JSON.stringify([\n      {\n        location_code: 2276,\n        language_code: \"de\",\n        keywords: keywords\n      }\n    ])\n  }\n}];"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        992,
+        -128
+      ],
+      "id": "6085c5f4-930e-44b4-ba32-053b807aa0fc",
+      "name": "Prepare request body"
+    },
+    {
+      "parameters": {
+        "fieldToSplitOut": "tasks[0].result[0].items",
+        "include": "selectedOtherFields",
+        "fieldsToInclude": "tasks[0].data.location_code",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.splitOut",
+      "typeVersion": 1,
+      "position": [
+        1440,
+        -128
+      ],
+      "id": "19fc69c6-515a-4c75-9495-c2739273214d",
+      "name": "Extract keywords from response"
+    },
+    {
+      "parameters": {
+        "operation": "update",
+        "base": {
+          "__rl": true,
+          "value": "appCgjGR9rFvho1pa",
+          "mode": "list",
+          "cachedResultName": "Zvoove Content System",
+          "cachedResultUrl": "https://airtable.com/appCgjGR9rFvho1pa"
+        },
+        "table": {
+          "__rl": true,
+          "value": "tblypfYJctBQT5CpU",
+          "mode": "list",
+          "cachedResultName": "Keywords",
+          "cachedResultUrl": "https://airtable.com/appCgjGR9rFvho1pa/tblypfYJctBQT5CpU"
+        },
+        "columns": {
+          "mappingMode": "defineBelow",
+          "value": {
+            "id": "={{ $json.id }}",
+            "KW Difficulty": "={{ $json.keyword_difficulty }}"
+          },
+          "matchingColumns": [
+            "id"
+          ],
+          "schema": [
+            {
+              "id": "id",
+              "displayName": "id",
+              "required": false,
+              "defaultMatch": true,
+              "display": true,
+              "type": "string",
+              "readOnly": true,
+              "removed": false
+            },
+            {
+              "id": "Keyword",
+              "displayName": "Keyword",
+              "required": false,
+              "defaultMatch": false,
+              "canBeUsedToMatch": true,
+              "display": true,
+              "type": "string",
+              "readOnly": false,
+              "removed": true
+            },
+            {
+              "id": "Created",
+              "displayName": "Created",
+              "required": false,
+              "defaultMatch": false,
+              "canBeUsedToMatch": true,
+              "display": true,
+              "type": "string",
+              "readOnly": true,
+              "removed": true
+            },
+            {
+              "id": "Modified",
+              "displayName": "Modified",
+              "required": false,
+              "defaultMatch": false,
+              "canBeUsedToMatch": true,
+              "display": true,
+              "type": "string",
+              "readOnly": true,
+              "removed": true
+            },
+            {
+              "id": "Keyword Category",
+              "displayName": "Keyword Category",
+              "required": false,
+              "defaultMatch": false,
+              "canBeUsedToMatch": true,
+              "display": true,
+              "type": "options",
+              "options": [
+                {
+                  "name": "Primary Keyword",
+                  "value": "Primary Keyword"
+                },
+                {
+                  "name": "Secondary Keyword",
+                  "value": "Secondary Keyword"
+                },
+                {
+                  "name": "Long-tail Keyword",
+                  "value": "Long-tail Keyword"
+                }
+              ],
+              "readOnly": false,
+              "removed": true
+            },
+            {
+              "id": "Search Intent",
+              "displayName": "Search Intent",
+              "required": false,
+              "defaultMatch": false,
+              "canBeUsedToMatch": true,
+              "display": true,
+              "type": "options",
+              "options": [
+                {
+                  "name": "informational",
+                  "value": "informational"
+                },
+                {
+                  "name": "transactional",
+                  "value": "transactional"
+                },
+                {
+                  "name": "navigational",
+                  "value": "navigational"
+                },
+                {
+                  "name": "commercial",
+                  "value": "commercial"
+                }
+              ],
+              "readOnly": false,
+              "removed": true
+            },
+            {
+              "id": "Search Volume",
+              "displayName": "Search Volume",
+              "required": false,
+              "defaultMatch": false,
+              "canBeUsedToMatch": true,
+              "display": true,
+              "type": "number",
+              "readOnly": false,
+              "removed": true
+            },
+            {
+              "id": "KW Difficulty",
+              "displayName": "KW Difficulty",
+              "required": false,
+              "defaultMatch": false,
+              "canBeUsedToMatch": true,
+              "display": true,
+              "type": "number",
+              "readOnly": false,
+              "removed": false
+            },
+            {
+              "id": "Blogposts",
+              "displayName": "Blogposts",
+              "required": false,
+              "defaultMatch": false,
+              "canBeUsedToMatch": true,
+              "display": true,
+              "type": "array",
+              "readOnly": false,
+              "removed": true
+            },
+            {
+              "id": "Blog URL (from Blogposts)",
+              "displayName": "Blog URL (from Blogposts)",
+              "required": false,
+              "defaultMatch": false,
+              "canBeUsedToMatch": true,
+              "display": true,
+              "type": "string",
+              "readOnly": true,
+              "removed": true
+            }
+          ],
+          "attemptToConvertTypes": false,
+          "convertFieldsToString": false
+        },
+        "options": {
+          "typecast": false
+        }
+      },
+      "type": "n8n-nodes-base.airtable",
+      "typeVersion": 2.2,
+      "position": [
+        1888,
+        -128
+      ],
+      "id": "4024b5e7-8888-46cc-90da-a7a4611c5588",
+      "name": "Add KW difficulty to database",
+      "credentials": {
+        "airtableTokenApi": {
+          "id": "HWzPpcqFj7r39bDf",
+          "name": "Airtable Personal Access Token account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "operation": "search",
+        "base": {
+          "__rl": true,
+          "value": "appCgjGR9rFvho1pa",
+          "mode": "list",
+          "cachedResultName": "Zvoove Content System",
+          "cachedResultUrl": "https://airtable.com/appCgjGR9rFvho1pa"
+        },
+        "table": {
+          "__rl": true,
+          "value": "tblypfYJctBQT5CpU",
+          "mode": "list",
+          "cachedResultName": "Keywords",
+          "cachedResultUrl": "https://airtable.com/appCgjGR9rFvho1pa/tblypfYJctBQT5CpU"
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.airtable",
+      "typeVersion": 2.2,
+      "position": [
+        96,
+        -128
+      ],
+      "id": "7cc6a24c-e928-4ccf-af25-54301d29d5f8",
+      "name": "Get all keywords",
+      "alwaysOutputData": false,
+      "executeOnce": true,
+      "credentials": {
+        "airtableTokenApi": {
+          "id": "HWzPpcqFj7r39bDf",
+          "name": "Airtable Personal Access Token account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "sortFieldsUi": {
+          "sortField": [
+            {
+              "fieldName": "fields.Keyword"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.sort",
+      "typeVersion": 1,
+      "position": [
+        544,
+        -128
+      ],
+      "id": "9d42dce9-cbe9-46e0-9aa7-e37c9487ddea",
+      "name": "Sort by keyword"
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict",
+            "version": 3
+          },
+          "conditions": [
+            {
+              "id": "08c106d3-586b-46c2-bbf4-8901dd8c9ef1",
+              "leftValue": "={{ $json.fields['KW Difficulty'] }}",
+              "rightValue": "",
+              "operator": {
+                "type": "number",
+                "operation": "empty",
+                "singleValue": true
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.filter",
+      "typeVersion": 2.3,
+      "position": [
+        320,
+        -128
+      ],
+      "id": "801fa8e7-4789-45af-84af-359cba69c525",
+      "name": "Filter for missing KW difficulty"
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://api.dataforseo.com/v3/dataforseo_labs/google/bulk_keyword_difficulty/live",
+        "authentication": "predefinedCredentialType",
+        "nodeCredentialType": "dataForSeoApi",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "Content-Type",
+              "value": "application/json"
+            }
+          ]
+        },
+        "sendBody": true,
+        "contentType": "raw",
+        "body": "={{ $json.requestBody }}",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.4,
+      "position": [
+        1216,
+        -128
+      ],
+      "id": "95d3499d-daa9-452e-b264-215e0b583819",
+      "name": "Get KW difficulty from DataForSEO",
+      "credentials": {
+        "dataForSeoApi": {
+          "id": "RBYHU0g0djggM1Kl",
+          "name": "DataForSEO account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "jsCode": "const volumeItems = $input.all();\nconst idMapping = $('Prepare keyword array with IDs').first().json.idMapping;\n\nreturn volumeItems.map(item => {\n  const keyword = item.json['tasks[0].result[0].items'].keyword;\n  const keywordDifficulty = item.json['tasks[0].result[0].items'].keyword_difficulty;\n  \n  return {\n    json: {\n      id: idMapping[keyword.toLowerCase()],\n      keyword: keyword,\n      keyword_difficulty: keywordDifficulty ?? 0  // null → 0\n    }\n  };\n});"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        1664,
+        -128
+      ],
+      "id": "61449bdc-fde0-49e0-a5e7-a9e58df502a7",
+      "name": "Join output data with IDs"
+    },
+    {
+      "parameters": {
+        "inputSource": "passthrough"
+      },
+      "type": "n8n-nodes-base.executeWorkflowTrigger",
+      "typeVersion": 1.1,
+      "position": [
+        -128,
+        -128
+      ],
+      "id": "5fa9ba56-233e-42d3-b889-3f857e27b813",
+      "name": "When executed by \"Main\" workflow"
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "Prepare keyword array with IDs": {
+      "main": [
+        [
+          {
+            "node": "Prepare request body",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Prepare request body": {
+      "main": [
+        [
+          {
+            "node": "Get KW difficulty from DataForSEO",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Extract keywords from response": {
+      "main": [
+        [
+          {
+            "node": "Join output data with IDs",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Get all keywords": {
+      "main": [
+        [
+          {
+            "node": "Filter for missing KW difficulty",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Sort by keyword": {
+      "main": [
+        [
+          {
+            "node": "Prepare keyword array with IDs",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Filter for missing KW difficulty": {
+      "main": [
+        [
+          {
+            "node": "Sort by keyword",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Get KW difficulty from DataForSEO": {
+      "main": [
+        [
+          {
+            "node": "Extract keywords from response",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Join output data with IDs": {
+      "main": [
+        [
+          {
+            "node": "Add KW difficulty to database",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "When executed by \"Main\" workflow": {
+      "main": [
+        [
+          {
+            "node": "Get all keywords",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1",
+    "binaryMode": "separate"
+  },
+  "versionId": "6c4c112e-6a66-465b-be14-1d34e5dda780",
+  "meta": {
+    "instanceId": "becc27736ffda7668b0b6ed7b310cfe94180ed0420664b77b77cb848c4be100c"
+  },
+  "id": "0v9sQUeBrug2hc0k",
+  "tags": []
+}
