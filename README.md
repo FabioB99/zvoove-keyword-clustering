@@ -105,10 +105,12 @@ N_CLUSTERS = 30  # Anzahl Cluster anpassen
 In `brief_generation.py`:
 ```python
 GEMINI_MODEL = "models/gemini-2.5-flash"
-
-# Priorität-Schwellenwerte in compute_stats():
-# > 20.000 → Hoch | 3.000–20.000 → Mittel | < 3.000 → Niedrig
 ```
+Priorität-Schwellenwerte in ```compute_stats()```:
+20.000 → Hoch
+3.000–20.000 → Mittel 
+< 3.000 → Niedrig
+
 
 ---
 
