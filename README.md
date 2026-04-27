@@ -1,138 +1,98 @@
 # zvoove Keyword Clustering & Content Brief Pipeline
 
-Automatisierte Pipeline: liest Keywords aus Airtable, gruppiert sie in thematische Cluster und generiert daraus SEO Content Briefs.
+Automated pipeline: reads keywords from Airtable, groups them into thematic clusters, and generates SEO content briefs.
 
----
+**Note:** This repository contains only the Python clustering & brief generation scripts. The n8n workflows for scraping, keyword extraction, and SEO data enrichment are included in `/n8n-workflows/` for reference but are documented separately.
 
-## Was die Pipeline macht
 
-```
-Airtable Keywords
-      │
-      ▼
-1. Clustering (cluster.py)
-   - Embeddings via Gemini
-   - K-Means Clustering (30 Cluster)
-   - Ergebnis: data/clusters_output.json
-      │
-      ▼
-2. Content Briefs (brief_generation.py)
-   - Stats berechnen (SV, KD, Intent) → Python
-   - Priorität bestimmen (SV-Schwellenwerte) → Python
-   - Content-Typ + Briefing-Texte → Gemini 2.5 Flash
-   - Markdown speichern → content-briefs/
-   - Hochladen → Airtable "Content Briefs" Tabelle
-```
-
----
-
-## Rohdaten & Transparenz
-
-Die Rohdaten (`data/`) und generierten Briefs (`content-briefs/`) sind im Repository enthalten.
-
-**Priorität-Logik (transparent & nachvollziehbar):**
-- **Hoch**: Gesamtes Search Volume > 20.000/Monat
-- **Mittel**: Search Volume 3.000–20.000/Monat
-- **Niedrig**: Search Volume < 3.000/Monat
-
-**Content-Typ-Logik (Gemini):**
-- *How-To*: Prozessorientierte Themen (Lohnabrechnung, Meldeprozesse, etc.)
-- *Vergleich*: Themen mit Alternativen / Outsourcing vs. Inhouse
-- *Übersicht*: Gesetzliche Regelungen, Compliance, Tarifwerke
-- *Guide*: Strategisch-umfassende Themen
-
----
-
-## Voraussetzungen
+## Prerequisites
 
 - Python 3.10+
-- Airtable Personal Access Token (mit Lese- & Schreibrechten auf die Base)
+- Airtable Personal Access Token (with read & write access to the base)
 - Google Gemini API Key ([aistudio.google.com](https://aistudio.google.com))
+- DataForSEO account (only for step 3)
 
-**Airtable Base muss enthalten:**
-- Tabelle `Keywords` mit Feldern: `Keyword`, `Search Volume`, `KW Difficulty`, `Search Intent`, `Keyword Category`
-- Tabelle `Keyword Clusters` (wird von `main.py` befüllt)
+**Airtable base must contain:**
+- Table `Blogposts` (populated by n8n)
+- Table `Keywords` with fields: `Keyword`, `Search Volume`, `KW Difficulty`, `Search Intent`, `Keyword Category`
+- Table `Content Briefs` (created by `brief_generation.py`)
+- Table `Keyword Clusters` (created by `main.py`)
 
----
 
 ## Setup
 
 ```bash
-# 1. Virtuelle Umgebung
+# 1. Virtual environment
 python -m venv .venv
 source .venv/bin/activate   # Windows: .venv\Scripts\activate
 
-# 2. Pakete installieren
+# 2. Install packages
 pip install -r requirements.txt
 
-# 3. Zugangsdaten
+# 3. Credentials
 cp .env.example .env
-# .env öffnen und Werte eintragen
+# Open .env and fill in the values
 ```
 
----
 
-## Ausführen
+## Running
 
-Die beiden Schritte sind unabhängig voneinander und können separat gestartet werden.
+**Prerequisites:** Keywords must already exist in Airtable (via n8n workflows or manual import). Each Python step depends on the previous one:
 
-### Schritt 1: Clustering
+### Step 1: Clustering
 ```bash
 python main.py
 ```
-Liest Keywords aus Airtable, berechnet Embeddings, clustert und schreibt die Cluster zurück in Airtable. Ergebnis wird in `data/` gespeichert.
+Reads keywords from Airtable, computes embeddings, clusters them, and writes the clusters back to Airtable.
 
-### Schritt 2: Content Briefs generieren / aktualisieren
+### Step 2: Generate content briefs
 ```bash
 python brief_generation.py
 ```
-Setzt voraus dass Schritt 1 bereits gelaufen ist. Das Script ist idempotent — bestehende Briefs werden aktualisiert, neue erstellt. Einmal laufen lassen reicht.
+Requires step 1. Generates or updates content briefs. The script is idempotent.
 
-### Nur Prioritäten aktualisieren (ohne Gemini)
+### Step 3: Add benchmark URLs
 ```bash
-python fix_priorities.py
+python add_benchmark_urls.py
 ```
+Requires step 2. Queries DataForSEO for top 3 URLs per cluster's top 3 keywords.
 
----
-
-## Konfiguration
+## Configuration
 
 In `main.py`:
 ```python
-N_CLUSTERS = 30  # Anzahl Cluster anpassen
+N_CLUSTERS = 30  # adjust number of clusters
 ```
 
 In `brief_generation.py`:
 ```python
 GEMINI_MODEL = "models/gemini-2.5-flash"
 ```
-Priorität-Schwellenwerte in ```compute_stats()```:
-* 20.000 → Hoch
-* 3.000–20.000 → Mittel 
-* < 3.000 → Niedrig
+Priority thresholds in `compute_stats()`:
+* 20,000 → High
+* 3,000–20,000 → Medium
+* < 3,000 → Low
 
 
----
+## Rate limits
 
-## Rate Limits
+Gemini 2.5 Flash Free Tier: **5 RPM**. The script automatically waits 12s between requests and retries on 429/503.
 
-Gemini 2.5 Flash Free Tier: **5 RPM**. Das Script wartet automatisch 12s zwischen Requests und retried bei 429/503. Bei ~30 Clustern: ca. 10–15 Minuten Laufzeit.
 
----
-
-## Projektstruktur
+## Project structure
 
 ```
-├── main.py                  # Komplette Pipeline (Schritt 1+2)
-├── cluster.py               # Keyword Clustering via Embeddings
-├── extract_airtable.py      # Keywords aus Airtable laden
-├── upload_airtable.py       # Cluster-Ergebnisse in Airtable schreiben
-├── brief_generation.py      # Content Briefs generieren & hochladen
-├── fix_priorities.py        # Prioritäten ohne Gemini aktualisieren
+├── main.py                  # Step 1: Clustering pipeline
+├── cluster.py               # Keyword clustering via embeddings
+├── extract_airtable.py      # Load keywords from Airtable
+├── upload_airtable.py       # Write cluster results to Airtable
+├── brief_generation.py      # Step 2: Generate & upload content briefs
+├── add_benchmark_urls.py    # Step 3: Benchmark URLs via DataForSEO
+├── fix_priorities.py        # Update priorities without Gemini
 ├── data/
-│   ├── keywords_full.json   # 536 Keywords (Rohdaten)
-│   └── clusters_output.json # 30 Cluster (Clustering-Ergebnis)
-├── content-briefs/          # 30 generierte Content Briefs (.md)
+│   ├── keywords_full.json   # 536 keywords (raw data)
+│   └── clusters_output.json # 30 clusters (clustering output)
+├── content-briefs/          # 30 generated content briefs (.md)
 ├── requirements.txt
 └── .env.example
 ```
