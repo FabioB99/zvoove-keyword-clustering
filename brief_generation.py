@@ -262,7 +262,7 @@ def ensure_briefs_table() -> str:
             {"name": "Brief Name", "type": "singleLineText"},
             {"name": "Cluster", "type": "multipleRecordLinks",
              "options": {"linkedTableId": tables["Keyword Clusters"]["id"]}},
-            {"name": "Brief Content", "type": "richText"},
+            {"name": "Full Content Brief", "type": "richText"},
             {"name": "Priorität", "type": "singleSelect",
              "options": {"choices": [{"name": "Hoch"}, {"name": "Mittel"}, {"name": "Niedrig"}]}},
             {"name": "Content-Typ", "type": "singleSelect",
@@ -289,7 +289,7 @@ def get_existing_briefs(table_id: str) -> dict:
 
 def _brief_fields(cluster: dict, stats: dict, text: dict, content: str) -> dict:
     return {
-        "Brief Content": content,
+        "Full Content Brief": content,
         "Priorität": stats["prioritaet"],
         "Content-Typ": text["content_typ"],
         "Thematischer Fokus": text["thematischer_fokus"],
