@@ -1,80 +1,137 @@
-# zvoove Keyword Clustering
+# zvoove Keyword Clustering & Content Brief Pipeline
 
-Liest Keywords aus Airtable, gruppiert sie semantisch in Themen-Cluster und schreibt die Ergebnisse zurück.
+Automatisierte Pipeline: liest Keywords aus Airtable, gruppiert sie in thematische Cluster und generiert daraus SEO Content Briefs.
+
+---
+
+## Was die Pipeline macht
+
+```
+Airtable Keywords
+      │
+      ▼
+1. Clustering (cluster.py)
+   - Embeddings via Gemini
+   - K-Means Clustering (30 Cluster)
+   - Ergebnis: data/clusters_output.json
+      │
+      ▼
+2. Content Briefs (brief_generation.py)
+   - Stats berechnen (SV, KD, Intent) → Python
+   - Priorität bestimmen (SV-Schwellenwerte) → Python
+   - Content-Typ + Briefing-Texte → Gemini 2.5 Flash
+   - Markdown speichern → content-briefs/
+   - Hochladen → Airtable "Content Briefs" Tabelle
+```
+
+---
+
+## Rohdaten & Transparenz
+
+| Datei | Inhalt | Zweck |
+|-------|--------|-------|
+| `data/keywords_full.json` | 536 Keywords mit Search Volume, KD, Search Intent, Kategorie | Basis für Clustering und Brief-Generierung |
+| `data/clusters_output.json` | 30 Cluster mit zugewiesenen Keywords und Ø SV | Clustering-Ergebnis vor Brief-Generierung |
+| `content-briefs/*.md` | 30 fertige Content Briefs als Markdown | Output der Pipeline |
+
+**Priorität-Logik (transparent & nachvollziehbar):**
+- **Hoch**: Gesamtes Search Volume > 20.000/Monat
+- **Mittel**: Search Volume 3.000–20.000/Monat
+- **Niedrig**: Search Volume < 3.000/Monat
+
+**Content-Typ-Logik (Gemini):**
+- *How-To*: Prozessorientierte Themen (Lohnabrechnung, Meldeprozesse, etc.)
+- *Vergleich*: Themen mit Alternativen / Outsourcing vs. Inhouse
+- *Übersicht*: Gesetzliche Regelungen, Compliance, Tarifwerke
+- *Guide*: Strategisch-umfassende Themen
 
 ---
 
 ## Voraussetzungen
 
-- Python 3.10 oder neuer ([python.org](https://www.python.org/downloads/))
-- Ein Airtable Personal Access Token
-- Ein Google Gemini API Key ([aistudio.google.com](https://aistudio.google.com))
+- Python 3.10+
+- Airtable Personal Access Token (mit Lese- & Schreibrechten auf die Base)
+- Google Gemini API Key ([aistudio.google.com](https://aistudio.google.com))
+
+**Airtable Base muss enthalten:**
+- Tabelle `Keywords` mit Feldern: `Keyword`, `Search Volume`, `KW Difficulty`, `Search Intent`, `Keyword Category`
+- Tabelle `Keyword Clusters` (wird von `main.py` befüllt)
 
 ---
 
-## Setup (einmalig)
+## Setup
 
-**1. Repository klonen**
 ```bash
-git clone <repo-url>
-cd zvoove-keyword-clustering
-```
-
-**2. Virtuelle Umgebung erstellen und Pakete installieren**
-```bash
+# 1. Virtuelle Umgebung
 python -m venv .venv
+source .venv/bin/activate   # Windows: .venv\Scripts\activate
 
-# Mac/Linux:
-source .venv/bin/activate
-
-# Windows:
-.venv\Scripts\activate
-
+# 2. Pakete installieren
 pip install -r requirements.txt
-```
 
-**3. Zugangsdaten eintragen**
-
-Kopiere `.env.example` zu `.env` und fülle die Werte aus:
-```bash
+# 3. Zugangsdaten
 cp .env.example .env
-```
-
-Öffne `.env` in einem Texteditor und trage ein:
-```
-AIRTABLE_API_KEY=dein_airtable_token
-AIRTABLE_BASE_ID=deine_base_id        # z.B. appXXXXXXXXXXXXXX
-GEMINI_API_KEY=dein_gemini_api_key
+# .env öffnen und Werte eintragen
 ```
 
 ---
 
 ## Ausführen
 
+### Komplette Pipeline (Clustering + Briefs)
 ```bash
 python main.py
 ```
 
-Das Script läuft in drei Schritten durch:
-1. Keywords aus Airtable laden
-2. Semantisches Clustering (dauert ~5–10 Min je nach Rate Limits)
-3. Ergebnisse zurück in Airtable schreiben
+### Nur Content Briefs generieren / aktualisieren
+```bash
+python brief_generation.py
+```
+Das Script ist idempotent — bestehende Briefs werden aktualisiert, neue erstellt. Einmal laufen lassen reicht.
 
-Die Ergebnisse landen in der Tabelle **Keyword Clusters** in deiner Airtable Base.
+### Nur Prioritäten aktualisieren (ohne Gemini)
+```bash
+python fix_priorities.py
+```
 
 ---
 
 ## Konfiguration
 
-In `main.py` kannst du die Anzahl der Cluster anpassen:
+In `main.py`:
 ```python
-N_CLUSTERS = 30  # Standard: 30
+N_CLUSTERS = 30  # Anzahl Cluster anpassen
+```
+
+In `brief_generation.py`:
+```python
+GEMINI_MODEL = "models/gemini-2.5-flash"
+
+# Priorität-Schwellenwerte in compute_stats():
+# > 20.000 → Hoch | 3.000–20.000 → Mittel | < 3.000 → Niedrig
 ```
 
 ---
 
-## Hinweise
+## Rate Limits
 
-- Das Script speichert die Embeddings zwischen (`data/embeddings_cache.npy`). Bei einem Abbruch wird beim nächsten Start dort weitergemacht.
-- Die Gemini API hat im Free Tier ein Rate Limit — das Script wartet automatisch und macht weiter.
-- API Keys niemals ins Git einchecken (`.env` ist bereits in `.gitignore`).
+Gemini 2.5 Flash Free Tier: **5 RPM**. Das Script wartet automatisch 12s zwischen Requests und retried bei 429/503. Bei ~30 Clustern: ca. 10–15 Minuten Laufzeit.
+
+---
+
+## Projektstruktur
+
+```
+├── main.py                  # Komplette Pipeline (Schritt 1+2)
+├── cluster.py               # Keyword Clustering via Embeddings
+├── extract_airtable.py      # Keywords aus Airtable laden
+├── upload_airtable.py       # Cluster-Ergebnisse in Airtable schreiben
+├── brief_generation.py      # Content Briefs generieren & hochladen
+├── fix_priorities.py        # Prioritäten ohne Gemini aktualisieren
+├── data/
+│   ├── keywords_full.json   # 536 Keywords (Rohdaten)
+│   └── clusters_output.json # 30 Cluster (Clustering-Ergebnis)
+├── content-briefs/          # 30 generierte Content Briefs (.md)
+├── requirements.txt
+└── .env.example
+```

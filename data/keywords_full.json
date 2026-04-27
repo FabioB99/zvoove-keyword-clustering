@@ -1,0 +1,4826 @@
+[
+  {
+    "id": "rec02FjnCH9zj3HBv",
+    "keyword": "arbeitsprozesse optimieren",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/richtig-prompten-mit-generativer-ki"
+  },
+  {
+    "id": "rec0DO8RMGvgAkz2w",
+    "keyword": "bürgergeld arbeitgeber",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/buergergeld-als-job-killer-in-der-gebaeudedienstleistung"
+  },
+  {
+    "id": "rec0acGxfEbEOUubq",
+    "keyword": "employer branding",
+    "search_volume": 6578,
+    "keyword_difficulty": 35,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/arbeitgeber-bewertungsportale"
+  },
+  {
+    "id": "rec0bfGKSnWj3ku7Q",
+    "keyword": "einwände behandeln",
+    "search_volume": 0,
+    "keyword_difficulty": 47,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/leitfaden-fur-die-telefonakquise-so-gehts"
+  },
+  {
+    "id": "rec0xcECVnMwRN3vb",
+    "keyword": "in-house factoring",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "commercial",
+    "blog_url": "https://zvoove.de/wissen/blog/factoring-personaldienstleistung-interview-mit-albert-siems-zvoove-cashlink"
+  },
+  {
+    "id": "rec0y5IRh6gNLlCGv",
+    "keyword": "recruiting-strategie",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "commercial",
+    "blog_url": "https://zvoove.de/wissen/blog/zeitarbeit-fur-studenten-ein-attraktives-modell"
+  },
+  {
+    "id": "rec10iIGzzHFLR1Iz",
+    "keyword": "candidate personas",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/passive-sourcing-tipps-fur-das-online-recruiting"
+  },
+  {
+    "id": "rec11YmHkXk7kigES",
+    "keyword": "forderungsausfallschutz",
+    "search_volume": 0,
+    "keyword_difficulty": 22,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "commercial",
+    "blog_url": "https://zvoove.de/wissen/blog/zeitarbeit-unter-druck-liquiditaet-entscheidender-faktor"
+  },
+  {
+    "id": "rec1ABOdzyIPInTRM",
+    "keyword": "payroll service",
+    "search_volume": 346,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "commercial",
+    "blog_url": "https://zvoove.de/wissen/blog/zvoove-im-kundeneinsatz-7time"
+  },
+  {
+    "id": "rec1HUplLdTIYWl2l",
+    "keyword": "unternehmenssoftware zeitarbeit",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "commercial",
+    "blog_url": "https://zvoove.de/wissen/blog/zvoove-im-kundeneinsatz-die-erfolgsgeschichte-raabe"
+  },
+  {
+    "id": "rec1MbOlPFfJVu1JR",
+    "keyword": "sozialabgaben",
+    "search_volume": 2654,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/beitragsbemessungsgrenzen-fuer-sozialbeitraege-fuer-2024-neu-festgelegt"
+  },
+  {
+    "id": "rec1PjDoaTI7Gf7VB",
+    "keyword": "qualifikationen",
+    "search_volume": 577,
+    "keyword_difficulty": 20,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/der-perfekte-lebenslauf"
+  },
+  {
+    "id": "rec1RgR5NsllzLzSU",
+    "keyword": "recruiting kpis",
+    "search_volume": 115,
+    "keyword_difficulty": 0,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/recruiting-kpis-so-messen-personaldienstleister-ihren-erfolg"
+  },
+  {
+    "id": "rec1UYEVnEigfcgok",
+    "keyword": "candidate journey",
+    "search_volume": 461,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/passive-sourcing-tipps-fur-das-online-recruiting"
+  },
+  {
+    "id": "rec1Xv6p3kZhafMkU",
+    "keyword": "multiposting",
+    "search_volume": 230,
+    "keyword_difficulty": 11,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "commercial",
+    "blog_url": "https://zvoove.de/wissen/blog/ende-von-facebook-jobs-das-ist-eine-starke-alternative"
+  },
+  {
+    "id": "rec1avXrNQYEJ6Asi",
+    "keyword": "personalbedarf",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "commercial",
+    "blog_url": "https://zvoove.de/wissen/blog/zeitarbeit-sorgt-im-weihnachtsgeschaeft-fuer-entlastung"
+  },
+  {
+    "id": "rec1hwNxfOvEpohKU",
+    "keyword": "zeitarbeit tariflohn",
+    "search_volume": 0,
+    "keyword_difficulty": 25,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/lohnerhoehung-in-der-personaldienstleistung"
+  },
+  {
+    "id": "rec1uG1IQIcIhE09O",
+    "keyword": "gesetzliche unfallversicherung digitalisierung",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/arbeitsunfaelle-elektronisch-melden"
+  },
+  {
+    "id": "rec232cpvMeAqVszd",
+    "keyword": "arbeitnehmerüberlassung erlaubnis",
+    "search_volume": 0,
+    "keyword_difficulty": 22,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "commercial",
+    "blog_url": "https://zvoove.de/wissen/blog/zvoove-im-kundeneinsatz-die-erfolgsgeschichte-raabe"
+  },
+  {
+    "id": "rec2CCmEeEqxececP",
+    "keyword": "gvp-tarifwerk",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/2026-jahreswechsel-personaldienstleistung"
+  },
+  {
+    "id": "rec2Ha9gg9ZcHYqh7",
+    "keyword": "digitale prozessoptimierung",
+    "search_volume": 0,
+    "keyword_difficulty": 10,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/mit-digitalen-arbeitsscheinen-in-die-zukunft"
+  },
+  {
+    "id": "rec2TUbyXQjq5Lt7b",
+    "keyword": "e-rechnungspflicht",
+    "search_volume": 2192,
+    "keyword_difficulty": 42,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/digitale-rechnungsstellung-ein-meilenstein-in-der-gebaeudereinigungsbranche"
+  },
+  {
+    "id": "rec2aMBCs1zrvJ23i",
+    "keyword": "bag urteil",
+    "search_volume": 0,
+    "keyword_difficulty": 30,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/urteil-zum-konzernprivileg-personaldienstleistung"
+  },
+  {
+    "id": "rec2pc6jlnlBTFvo5",
+    "keyword": "compliance",
+    "search_volume": 35779,
+    "keyword_difficulty": 27,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/hinweisgeberschutzgesetz-personaldienstleistung"
+  },
+  {
+    "id": "rec2t0qHcu4lZ5Lus",
+    "keyword": "tariferhöhung zeitarbeit",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/tarif-in-der-personaldienstleistung-loehne-steigen-maerz-2025"
+  },
+  {
+    "id": "rec3Db7J4XLxPYbOs",
+    "keyword": "e-rechnung pflicht",
+    "search_volume": 1038,
+    "keyword_difficulty": 42,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/2026-jahreswechsel-personaldienstleistung"
+  },
+  {
+    "id": "rec3Vhm8vuz6bAw2Q",
+    "keyword": "bewerbermatching",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/personal-und-bewerber-richtig-beurteilen-die-haufigsten-beurteilungsfehler"
+  },
+  {
+    "id": "rec3dFltkJjxDy8Hr",
+    "keyword": "sozialversicherung lohnabrechnung",
+    "search_volume": 0,
+    "keyword_difficulty": 19,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/wichtige-anderungen-im-juli-pflegebeitrage-in-der-lohnabrechnung-anpassen"
+  },
+  {
+    "id": "rec3ggXlebttGts7q",
+    "keyword": "karriereseite",
+    "search_volume": 1038,
+    "keyword_difficulty": 27,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/das-aida-modell-im-recruiting-prozess"
+  },
+  {
+    "id": "rec3lr9wMKyTdn0bm",
+    "keyword": "personalbedarf berechnen",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/brutto-personalbedarf-und-netto-personalbedarf"
+  },
+  {
+    "id": "rec3sB4OXEJNPLAKw",
+    "keyword": "anzeigeverfahren agentur für arbeit",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/ausgleichsabgabe-fuer-unternehmen-steigt"
+  },
+  {
+    "id": "rec40tfHAIc2v399e",
+    "keyword": "equal pay",
+    "search_volume": 1385,
+    "keyword_difficulty": 24,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/gesetzliches-und-tarifliches-equal-pay-richtig-umsetzen"
+  },
+  {
+    "id": "rec4E228lrf1DSa5W",
+    "keyword": "auswahlverfahren",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/assessment-center-pro-und-contra"
+  },
+  {
+    "id": "rec4Kzbk28MAGNhvH",
+    "keyword": "personaldienstleistungssoftware",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "commercial",
+    "blog_url": "https://zvoove.de/wissen/blog/zvoove-im-kundeneinsatz-hygeia-med"
+  },
+  {
+    "id": "rec4RwQw99dIoC5tO",
+    "keyword": "lohnbuchhaltung gebäudereinigung",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/lohnabrechnung-im-griff-wie-gebaudedienstleister-aufwand-und-kosten-senken"
+  },
+  {
+    "id": "rec4VT6RnkM4X1ZT0",
+    "keyword": "ersatzbedarf",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/bruttopersonalbedarf-bestimmen"
+  },
+  {
+    "id": "rec4jaidxCJSoa5Wv",
+    "keyword": "zeitarbeit krankheit",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/kranke-zeitarbeitnehmer-praxistipps-fur-personaldienstleister"
+  },
+  {
+    "id": "rec4oiOs5HtgGlcCi",
+    "keyword": "datensicherheit personaldienstleister",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "commercial",
+    "blog_url": "https://zvoove.de/wissen/blog/zvoove-im-kundeneinsatz-die-erfolgsgeschichte-p2b"
+  },
+  {
+    "id": "rec4sU4O6Lc2aqiZT",
+    "keyword": "personaldienstleistung branche",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/tag-der-personaldienstleister"
+  },
+  {
+    "id": "rec5CzCDcc79MLEBf",
+    "keyword": "personalverwaltung",
+    "search_volume": 461,
+    "keyword_difficulty": 0,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "commercial",
+    "blog_url": "https://zvoove.de/wissen/blog/digitale-personalakte-fuer-personaldienstleister"
+  },
+  {
+    "id": "rec5GYs4mmWRLqCFw",
+    "keyword": "elster-unternehmenskonto",
+    "search_volume": 0,
+    "keyword_difficulty": 56,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/neues-meldeportal-sozialversicherung"
+  },
+  {
+    "id": "rec5MY3qKjfqgaz1w",
+    "keyword": "finanzierung zeitarbeit",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "commercial",
+    "blog_url": "https://zvoove.de/wissen/blog/liquiditaet-sichern-factoring-personaldienstleister"
+  },
+  {
+    "id": "rec5e0X8mEadX7ObE",
+    "keyword": "stellenanzeige",
+    "search_volume": 2192,
+    "keyword_difficulty": 100,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/du-oder-sie-die-richtige-ansprache-in-der-stellenanzeige"
+  },
+  {
+    "id": "rec5gTpZAPSJisf40",
+    "keyword": "recruiting automatisierung",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "commercial",
+    "blog_url": "https://zvoove.de/wissen/blog/innolab-25-zeigt-was-die-branche-bewegt"
+  },
+  {
+    "id": "rec5oKyiFxRmEAqCt",
+    "keyword": "active sourcing tools",
+    "search_volume": 0,
+    "keyword_difficulty": 19,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "commercial",
+    "blog_url": "https://zvoove.de/wissen/blog/active-sourcing-tools-welche-sind-die-richtigen-fur-mich"
+  },
+  {
+    "id": "rec5on14EVfNlhv7Q",
+    "keyword": "personalengpässe pflege",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/verbot-von-zeitarbeit-in-der-pflege-neue-forderungen-werden-laut"
+  },
+  {
+    "id": "rec64Fh1LdT0ySVMS",
+    "keyword": "hr-prozesse automatisieren",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/hr-outsourcing-chancen-risiken-der-auslagerung"
+  },
+  {
+    "id": "rec64Tmif7Gyhm9bq",
+    "keyword": "pfändungstabelle",
+    "search_volume": 2539,
+    "keyword_difficulty": 19,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/neue-pfaendungsfreigrenzen-ab-juli-2025"
+  },
+  {
+    "id": "rec6AmadMwwbOg6iU",
+    "keyword": "digitale rechnungsstellung",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/digitale-rechnungsstellung-ein-meilenstein-in-der-gebaeudereinigungsbranche"
+  },
+  {
+    "id": "rec6BgXM9mC05RzAW",
+    "keyword": "digitalisierung personaldienstleistung",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/die-personaldienstleistung-aendert-sich-rasant-zcom-2025-zeigt-loesungen-fuer-sie-auf"
+  },
+  {
+    "id": "rec6G5lsBuxisxrRL",
+    "keyword": "arbeitsleistung dokumentieren",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/mit-digitalen-arbeitsscheinen-in-die-zukunft"
+  },
+  {
+    "id": "rec6NfuXQSWRQmGjF",
+    "keyword": "sv-meldeportal",
+    "search_volume": 6463,
+    "keyword_difficulty": 27,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/neues-meldeportal-sozialversicherung"
+  },
+  {
+    "id": "rec6P8FpOFgIEBemK",
+    "keyword": "einsatzbetrieb",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/so-gelingt-der-perfekte-start-onboarding-in-der-zeitarbeit"
+  },
+  {
+    "id": "rec6hE6vRqWAjTfRg",
+    "keyword": "steuerfreie sonderzahlung",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/zeitarbeitnehmende-bestimmter-branchen-erhalten-nun-auch-die-inflationsausgleichpramie"
+  },
+  {
+    "id": "rec6qI2p2Wl3w4d2f",
+    "keyword": "gvp dgb tarifvertrag",
+    "search_volume": 115,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/tarifabschluss-zeitarbeit-loehne-steigen-in-3-stufen"
+  },
+  {
+    "id": "rec6tWX3DrXsaEmsQ",
+    "keyword": "arbeitnehmerüberlassungserlaubnis kosten",
+    "search_volume": 0,
+    "keyword_difficulty": 30,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/zeitarbeitsfirma-startkapital"
+  },
+  {
+    "id": "rec6xvTPSYhHmpL61",
+    "keyword": "ki-ethik",
+    "search_volume": 115,
+    "keyword_difficulty": 8,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/ki-und-ethik-so-meistern-unternehmen-ethische-herausforderungen"
+  },
+  {
+    "id": "rec78ITnB9DTmMdKe",
+    "keyword": "personaldienstleistung studieren",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/studiengang-personaldienstleistung"
+  },
+  {
+    "id": "rec7Diks5ic8sXks6",
+    "keyword": "cloud-lösungen zeitarbeit",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/zvoove-gvp-industry-pulse-2025-die-wichtigsten-ergebnisse-fuer-die-personaldienstleistung"
+  },
+  {
+    "id": "rec7H20nQxlSrioOs",
+    "keyword": "personalführung",
+    "search_volume": 1269,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/ich-erwarte-was-was-du-nicht-weist-erfolgreiches-erwartungsmanagement"
+  },
+  {
+    "id": "rec7UwzWfh5oBweAd",
+    "keyword": "eau-verfahren",
+    "search_volume": 115,
+    "keyword_difficulty": 32,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/zeitarbeit-was-andert-sich-2022"
+  },
+  {
+    "id": "rec7WQg4mZeA4XimM",
+    "keyword": "arbeitsvertrag inhalte",
+    "search_volume": 0,
+    "keyword_difficulty": 22,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/arbeitsvertrag-welche-inhalte-sind-wichtig"
+  },
+  {
+    "id": "rec7XjhdLlt1OlKgg",
+    "keyword": "digitale mitarbeitergewinnung",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "commercial",
+    "blog_url": "https://zvoove.de/wissen/blog/zvoove-im-kundeneinsatz-die-erfolgsgeschichte-henterpersonal"
+  },
+  {
+    "id": "rec7YPTNm1kibBV2D",
+    "keyword": "retention management",
+    "search_volume": 461,
+    "keyword_difficulty": 0,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/gehen-oder-bleiben-warum-mitarbeiter-kuendigen"
+  },
+  {
+    "id": "rec7YlK3h0TfN9Z99",
+    "keyword": "recruiting-lösungen",
+    "search_volume": 0,
+    "keyword_difficulty": 16,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "commercial",
+    "blog_url": "https://zvoove.de/wissen/blog/staffingpro-zvoove-freiticket"
+  },
+  {
+    "id": "rec7cKB8n1S5tr1zJ",
+    "keyword": "absage vorstellungsgespräch",
+    "search_volume": 577,
+    "keyword_difficulty": 0,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/absage-nach-vorstellungsgespraech"
+  },
+  {
+    "id": "rec7zrCo9AIEqPxPn",
+    "keyword": "strukturprobleme pflegeberuf",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/weniger-zeitarbeit-in-der-pflege-kosmetik-statt-echte-problemlosung"
+  },
+  {
+    "id": "rec81J3f6ry1RcUPk",
+    "keyword": "iap zeitarbeit",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/zeitarbeitnehmende-bestimmter-branchen-erhalten-nun-auch-die-inflationsausgleichpramie"
+  },
+  {
+    "id": "rec8IEhqgVcnF4FSb",
+    "keyword": "personaldienstleistungskaufmann weiterbildung",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/studiengang-personaldienstleistung"
+  },
+  {
+    "id": "rec8KWhCt9JbACCLo",
+    "keyword": "soziales faulenzen",
+    "search_volume": 115,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/team-psychologie-soziales-faulenzen-und-andere-gruppenphanomene"
+  },
+  {
+    "id": "rec8XcPheNzrpNb1k",
+    "keyword": "branchenumfrage",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/jetzt-teilnehmen-branchenumfrage-industry-pulse-2026"
+  },
+  {
+    "id": "rec8htjsJ1UbFTGKi",
+    "keyword": "erp-software",
+    "search_volume": 1154,
+    "keyword_difficulty": 20,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "commercial",
+    "blog_url": "https://zvoove.de/wissen/blog/zukunft-personal-europe-2024-pflichttermin"
+  },
+  {
+    "id": "rec9BAF521Mdu8SCS",
+    "keyword": "zeitarbeit 2024",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/neues-jahr-wichtige-aenderungen-fuer-personaldienstleister"
+  },
+  {
+    "id": "rec9LlHPDzVdKdhxM",
+    "keyword": "b2b-rechnungen",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/pflicht-zur-elektronischen-rechnung-kommt"
+  },
+  {
+    "id": "rec9VuUuL9QPX9dib",
+    "keyword": "unzulässige fragen",
+    "search_volume": 0,
+    "keyword_difficulty": 52,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/fragen-luegen-im-vorstellungsgespraech"
+  },
+  {
+    "id": "rec9YAb4RWXy77a9n",
+    "keyword": "cloudbasierte softwarelösung",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "commercial",
+    "blog_url": "https://zvoove.de/wissen/blog/zvoove-im-kundeneinsatz-die-erfolgsgeschichte-henterpersonal"
+  },
+  {
+    "id": "rec9hNHF3r0ktLMBA",
+    "keyword": "stundenerfassung",
+    "search_volume": 0,
+    "keyword_difficulty": 3,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "commercial",
+    "blog_url": "https://zvoove.de/wissen/blog/zvoove-im-kundeneinsatz-die-erfolgsgeschichte-somi-experts"
+  },
+  {
+    "id": "rec9iKbicga9yjR6p",
+    "keyword": "branchen-mindestlohn",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/tarif-in-der-personaldienstleistung-loehne-steigen-maerz-2025"
+  },
+  {
+    "id": "rec9mcpgKrb0doRLM",
+    "keyword": "zahlungsziele zeitarbeit",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "commercial",
+    "blog_url": "https://zvoove.de/wissen/blog/zeitarbeit-unter-druck-liquiditaet-entscheidender-faktor"
+  },
+  {
+    "id": "rec9ua9LiTgnkiwP2",
+    "keyword": "zeitarbeit stundenlohn",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/tarif-in-der-personaldienstleistung-loehne-steigen-maerz-2025"
+  },
+  {
+    "id": "rec9uhiMT9Gw7x4Jb",
+    "keyword": "personaldienstleistung software",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "commercial",
+    "blog_url": "https://zvoove.de/wissen/blog/digitale-transformation-in-der-personaldienstleistung"
+  },
+  {
+    "id": "recA2iMlX0vlfIyIQ",
+    "keyword": "cost-per-hire",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/recruiting-kpis-so-messen-personaldienstleister-ihren-erfolg"
+  },
+  {
+    "id": "recA6hoknVIv4nF0s",
+    "keyword": "fehlentscheidungen",
+    "search_volume": 115,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/personal-und-bewerber-richtig-beurteilen-die-haufigsten-beurteilungsfehler"
+  },
+  {
+    "id": "recA8BJH52hsPU727",
+    "keyword": "applicant tracking system",
+    "search_volume": 1269,
+    "keyword_difficulty": 26,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "commercial",
+    "blog_url": "https://zvoove.de/wissen/blog/peinliche-fehler-in-stellenanzeigen-vermeiden"
+  },
+  {
+    "id": "recAKvi4eorlR36EH",
+    "keyword": "zeiterfassung software",
+    "search_volume": 577,
+    "keyword_difficulty": 11,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/arbeitszeitdaten-erfassen"
+  },
+  {
+    "id": "recANHCv5VvbEwkeD",
+    "keyword": "mitarbeiterleistung messen",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/arbeitsproduktivitat-messen-wie-effektiv-ist-der-einsatz-des-faktors-arbeit"
+  },
+  {
+    "id": "recAS0U5D4lEKyS13",
+    "keyword": "ki in der personaldienstleistung",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "commercial",
+    "blog_url": "https://zvoove.de/wissen/blog/innolab-25-zeigt-was-die-branche-bewegt"
+  },
+  {
+    "id": "recAY7jzZ2q7Kjwur",
+    "keyword": "recruiting strategien",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "commercial",
+    "blog_url": "https://zvoove.de/wissen/blog/ende-von-facebook-jobs-das-ist-eine-starke-alternative"
+  },
+  {
+    "id": "recAvbhHUOKSDAMnz",
+    "keyword": "lücken im lebenslauf",
+    "search_volume": 115,
+    "keyword_difficulty": 7,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/der-perfekte-lebenslauf"
+  },
+  {
+    "id": "recAza3LexMG8AMCs",
+    "keyword": "ki-agenten",
+    "search_volume": 230,
+    "keyword_difficulty": 5,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/ki-im-unternehmen-stolpersteine"
+  },
+  {
+    "id": "recB0dlPj6b2nAAeD",
+    "keyword": "prozessoptimierung",
+    "search_volume": 1962,
+    "keyword_difficulty": 24,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/personaldienstleistung-4-0-wie-digitalisiert-ist-die-branche"
+  },
+  {
+    "id": "recB3hz9JIn7T9v1X",
+    "keyword": "entgeltfortzahlung zeitarbeit",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/kranke-zeitarbeitnehmer-praxistipps-fur-personaldienstleister"
+  },
+  {
+    "id": "recBBSllecAQZhHeI",
+    "keyword": "mitarbeitermotivation",
+    "search_volume": 807,
+    "keyword_difficulty": 6,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/mitarbeiter-motivieren"
+  },
+  {
+    "id": "recBDB9OBK8jKFi9g",
+    "keyword": "arbeitnehmerüberlassung",
+    "search_volume": 15581,
+    "keyword_difficulty": 23,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/das-steckt-hinter-qualifizierter-zeitarbeit"
+  },
+  {
+    "id": "recBEcPsZf4I59WgT",
+    "keyword": "bundeszentralamt für steuern",
+    "search_volume": 27353,
+    "keyword_difficulty": 26,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/alles-zur-neuen-wirtschafts-identifikationsnummer"
+  },
+  {
+    "id": "recBGWvmg5l6ca2nx",
+    "keyword": "unternehmensumstrukturierung",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "commercial",
+    "blog_url": "https://zvoove.de/wissen/blog/zvoove-im-kundeneinsatz-echterdinger-personal"
+  },
+  {
+    "id": "recBQaYMGKu2thJor",
+    "keyword": "branchenstudie",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/zukunft-gestalten-gemeinsam-tag-der-personaldienstleister-2025-jetzt-anmelden"
+  },
+  {
+    "id": "recBSD7p1kwYxLJXU",
+    "keyword": "pflegeversicherung beiträge",
+    "search_volume": 0,
+    "keyword_difficulty": 11,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/wichtige-anderungen-im-juli-pflegebeitrage-in-der-lohnabrechnung-anpassen"
+  },
+  {
+    "id": "recBSwJCOe6HXjyTs",
+    "keyword": "zukunft personal europe",
+    "search_volume": 923,
+    "keyword_difficulty": 10,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/zukunft-personal-europe-2023-das-erwartet-sie"
+  },
+  {
+    "id": "recBT5eTlrlyvjl7N",
+    "keyword": "hr trends 2025",
+    "search_volume": 230,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "commercial",
+    "blog_url": "https://zvoove.de/wissen/blog/innolab-25-zeigt-was-die-branche-bewegt"
+  },
+  {
+    "id": "recBaJyw1tqYHjdNK",
+    "keyword": "kandidaten finden",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "commercial",
+    "blog_url": "https://zvoove.de/wissen/blog/active-sourcing-tools-welche-sind-die-richtigen-fur-mich"
+  },
+  {
+    "id": "recBe3Yg5USLtAXkH",
+    "keyword": "cloud-lösung",
+    "search_volume": 0,
+    "keyword_difficulty": 24,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "commercial",
+    "blog_url": "https://zvoove.de/wissen/blog/zvoove-im-kundeneinsatz-echterdinger-personal"
+  },
+  {
+    "id": "recC6CTF4HIWyzd41",
+    "keyword": "gebäudedienstleistung",
+    "search_volume": 0,
+    "keyword_difficulty": 4,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/robotik-und-budgets-wie-sich-gebaeudedienstleistungen-in-krankenhaeusern-veraendern"
+  },
+  {
+    "id": "recCB3QpIC91SRQjp",
+    "keyword": "bürokratieentlastungsgesetz",
+    "search_volume": 461,
+    "keyword_difficulty": 12,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/wegfall-der-schriftformerfordernis-in-der-zeitarbeit-interview-mit-dr-alexander-bissels"
+  },
+  {
+    "id": "recCCkbUgPXtexhHo",
+    "keyword": "zeitarbeit urteil",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/aktuelles-urteil-zum-abzug-von-minusstunden"
+  },
+  {
+    "id": "recCH3B0pPl8ZR1b2",
+    "keyword": "tarifverhandlungen zeitarbeit",
+    "search_volume": 0,
+    "keyword_difficulty": 16,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/neues-jahr-wichtige-aenderungen-fuer-personaldienstleister"
+  },
+  {
+    "id": "recCP9bgDbB7v3mcV",
+    "keyword": "arbeitgebermarke",
+    "search_volume": 115,
+    "keyword_difficulty": 10,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/du-oder-sie-die-richtige-ansprache-in-der-stellenanzeige"
+  },
+  {
+    "id": "recCXLzkVTNsLjWvv",
+    "keyword": "benchmarking personalwesen",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/die-wichtigsten-instrumente-im-personalcontrolling-benchmarking"
+  },
+  {
+    "id": "recCieVjGEEIQorvl",
+    "keyword": "fachkräftemangel",
+    "search_volume": 3693,
+    "keyword_difficulty": 43,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/so-gelingt-der-perfekte-start-onboarding-in-der-zeitarbeit"
+  },
+  {
+    "id": "recCivy4ZRlHFl2KH",
+    "keyword": "revisionssichere archivierung",
+    "search_volume": 461,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "commercial",
+    "blog_url": "https://zvoove.de/wissen/blog/digitale-personalakte-fuer-personaldienstleister"
+  },
+  {
+    "id": "recClgQIamkxEXZbb",
+    "keyword": "sozialversicherung",
+    "search_volume": 4847,
+    "keyword_difficulty": 30,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/beitragsbemessungsgrenzen-fuer-sozialbeitraege-fuer-2024-neu-festgelegt"
+  },
+  {
+    "id": "recCxQClVLANe8u1I",
+    "keyword": "meldepflicht arbeitsunfall",
+    "search_volume": 0,
+    "keyword_difficulty": 1,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/arbeitsunfaelle-elektronisch-melden"
+  },
+  {
+    "id": "recCyZ9NRosyPAXc1",
+    "keyword": "automatisierung",
+    "search_volume": 2654,
+    "keyword_difficulty": 27,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/jetzt-teilnehmen-branchenumfrage-industry-pulse-2026"
+  },
+  {
+    "id": "recD0iZ4D1PXQcV9m",
+    "keyword": "personalleasing gesundheitswesen",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/zeitarbeit-in-der-pflege-vor-und-nachteile"
+  },
+  {
+    "id": "recD8PCeRcUxSYWiM",
+    "keyword": "teamarbeit",
+    "search_volume": 692,
+    "keyword_difficulty": 10,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/team-psychologie-soziales-faulenzen-und-andere-gruppenphanomene"
+  },
+  {
+    "id": "recDD7BF9fqPmwoyB",
+    "keyword": "team workshop",
+    "search_volume": 115,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/ich-erwarte-was-was-du-nicht-weist-erfolgreiches-erwartungsmanagement"
+  },
+  {
+    "id": "recDLGtLywhazN3FU",
+    "keyword": "entgelterhöhung zeitarbeit",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/einheitlicher-tarifvertrag-in-der-zeitarbeit-ab-2026"
+  },
+  {
+    "id": "recDN8dhTJcwZGmur",
+    "keyword": "nachweisgesetz elektronische form",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/neues-burokratieentlastungsgesetz-eckpunkte-festgelegt"
+  },
+  {
+    "id": "recDQBOkqoM1k3kny",
+    "keyword": "agentic ai",
+    "search_volume": 26776,
+    "keyword_difficulty": 48,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/ki-im-unternehmen-stolpersteine"
+  },
+  {
+    "id": "recDR2cddqvPkQJXa",
+    "keyword": "datenschutz für unternehmen",
+    "search_volume": 0,
+    "keyword_difficulty": 17,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/personenbezogene-daten-schutzen-praktische-tipps"
+  },
+  {
+    "id": "recDSxqMpiY1mF0LE",
+    "keyword": "personaldienstleistung",
+    "search_volume": 807,
+    "keyword_difficulty": 75,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/ki-im-unternehmen-stolpersteine"
+  },
+  {
+    "id": "recDhLOK7AlFeRWyT",
+    "keyword": "kununu arbeitgeberprofil",
+    "search_volume": 0,
+    "keyword_difficulty": 58,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/arbeitgeber-bewertungsportale"
+  },
+  {
+    "id": "recDlr6BBXyPM2pXV",
+    "keyword": "schriftformerfordernis aüg",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/neues-burokratieentlastungsgesetz-eckpunkte-festgelegt"
+  },
+  {
+    "id": "recDt43Z4UtY0kLKW",
+    "keyword": "ki-tools",
+    "search_volume": 461,
+    "keyword_difficulty": 25,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/ki-in-der-personaldienstleistung"
+  },
+  {
+    "id": "recDurwHQj8NqnebK",
+    "keyword": "eu ai act",
+    "search_volume": 38664,
+    "keyword_difficulty": 88,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/eu-ai-act-was-personaldienstleister-wissen-muessen"
+  },
+  {
+    "id": "recE5cEBeYTRoSnYM",
+    "keyword": "liquidität zeitarbeit",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "commercial",
+    "blog_url": "https://zvoove.de/wissen/blog/factoring-personaldienstleistung-interview-mit-albert-siems-zvoove-cashlink"
+  },
+  {
+    "id": "recE8WKdAWPzo1GI5",
+    "keyword": "arbeitgeber-bewertungsportale",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/arbeitgeber-bewertungsportale"
+  },
+  {
+    "id": "recEAIcHXq089Rx1N",
+    "keyword": "hr-controlling",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/hr-controlling-zur-absicherung-gegen-demografische-risiken"
+  },
+  {
+    "id": "recEGsvvvSeWqO6Ur",
+    "keyword": "vergleichsentgelt",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/gesetzliches-und-tarifliches-equal-pay-richtig-umsetzen"
+  },
+  {
+    "id": "recELM84f3IPgCh1h",
+    "keyword": "lohnabrechnung kosten",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/lohnabrechnung-im-griff-wie-gebaudedienstleister-aufwand-und-kosten-senken"
+  },
+  {
+    "id": "recEYW2UVNwT6jcgx",
+    "keyword": "tarifabschluss zeitarbeit",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/tarifabschluss-zeitarbeit-loehne-steigen-in-3-stufen"
+  },
+  {
+    "id": "recEbbIfVbbhhpt7m",
+    "keyword": "facility services",
+    "search_volume": 230,
+    "keyword_difficulty": 11,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/facility-services-auf-wachstumskurs"
+  },
+  {
+    "id": "recEkBe2fx5H8ChNX",
+    "keyword": "lohnabrechnung dienstleistung",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "commercial",
+    "blog_url": "https://zvoove.de/wissen/blog/zvoove-im-kundeneinsatz-die-erfolgsgeschichte-sedona"
+  },
+  {
+    "id": "recEliE5Uixvpp4z1",
+    "keyword": "managed payroll",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "commercial",
+    "blog_url": "https://zvoove.de/wissen/blog/zvoove-im-kundeneinsatz-die-erfolgsgeschichte-mks-gmbh"
+  },
+  {
+    "id": "recFBsFgt4QAoxr0o",
+    "keyword": "generative ki",
+    "search_volume": 5655,
+    "keyword_difficulty": 25,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/richtig-prompten-mit-generativer-ki"
+  },
+  {
+    "id": "recFD3Pg4QjAFXYpk",
+    "keyword": "factoring zeitarbeit",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "commercial",
+    "blog_url": "https://zvoove.de/wissen/blog/factoring-personaldienstleistung-interview-mit-albert-siems-zvoove-cashlink"
+  },
+  {
+    "id": "recFLKVqx6a3KZtOF",
+    "keyword": "multi-channel-posting",
+    "search_volume": 0,
+    "keyword_difficulty": 48,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/mit-ebay-kleinanzeigen-zum-neuen-mitarbeiter"
+  },
+  {
+    "id": "recFXRZIeRnKu2ocw",
+    "keyword": "arbeitsmarkt",
+    "search_volume": 3462,
+    "keyword_difficulty": 37,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/arbeitsmarktdaten-zeitarbeit-mit-lichtblicken-in-schwierigen-zeiten"
+  },
+  {
+    "id": "recFm8gF9FzvdB8F8",
+    "keyword": "entwicklungsperspektiven",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/mitarbeitergesprach-fragenkatalog-und-tipps"
+  },
+  {
+    "id": "recFoydlHBvMNSPH3",
+    "keyword": "ausbildungsbetrieb",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/interview-mit-einem-syrischen-fluchtling"
+  },
+  {
+    "id": "recFpGlIq659LxSGr",
+    "keyword": "verspätungszuschlag",
+    "search_volume": 1962,
+    "keyword_difficulty": 17,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/steuererklarung-abgabepflicht-fur-kurzarbeiter"
+  },
+  {
+    "id": "recFyFh62ELW32H3Q",
+    "keyword": "datenschutz in der ki",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/ki-und-ethik-so-meistern-unternehmen-ethische-herausforderungen"
+  },
+  {
+    "id": "recG0UhXuXsjpZGkw",
+    "keyword": "arbeitsproduktivität messen",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/arbeitsproduktivitat-messen-wie-effektiv-ist-der-einsatz-des-faktors-arbeit"
+  },
+  {
+    "id": "recG92YytqWvNtqhv",
+    "keyword": "hinweisgebersystem",
+    "search_volume": 230,
+    "keyword_difficulty": 11,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/hinweisgeberschutzgesetz-personaldienstleistung"
+  },
+  {
+    "id": "recGHTN75s4DdA3OO",
+    "keyword": "arbeitszeitdaten erfassen",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/arbeitszeitdaten-erfassen"
+  },
+  {
+    "id": "recGKMUJHAvNkTqle",
+    "keyword": "übergangsbereich",
+    "search_volume": 346,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/midijob-was-ist-das"
+  },
+  {
+    "id": "recGUufUVQZhHjZ5T",
+    "keyword": "personaldienstleister finanzierung",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "commercial",
+    "blog_url": "https://zvoove.de/wissen/blog/factoring-personaldienstleistung-interview-mit-albert-siems-zvoove-cashlink"
+  },
+  {
+    "id": "recGjVLnWP9Uq1T3G",
+    "keyword": "lohnerhöhung 2025",
+    "search_volume": 230,
+    "keyword_difficulty": 38,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/neuer-tarif-in-der-gebaeudereinigung"
+  },
+  {
+    "id": "recGmPuOxwo7Kd8HE",
+    "keyword": "mindestlohn gebäudereinigung",
+    "search_volume": 115,
+    "keyword_difficulty": 8,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/neuer-tarif-in-der-gebaeudereinigung"
+  },
+  {
+    "id": "recGyXJgkDSnIfbkh",
+    "keyword": "personalmanagement",
+    "search_volume": 1385,
+    "keyword_difficulty": 20,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/zukunft-personal-europe-2023-das-erwartet-sie"
+  },
+  {
+    "id": "recH7nKnnHh2gsaAZ",
+    "keyword": "stellenanzeige formulieren",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/die-stellenausschreibung-als-wichtiges-tool-im-bewerbermanagement"
+  },
+  {
+    "id": "recHDmib0QFYS0K5s",
+    "keyword": "automatisierung recruiting",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/kuenstliche-intelligenz-im-recruiting"
+  },
+  {
+    "id": "recHEGUqpzz7ecaOu",
+    "keyword": "bewerberzielgruppen",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/du-oder-sie-die-richtige-ansprache-in-der-stellenanzeige"
+  },
+  {
+    "id": "recHGvLLSsLFfbDxm",
+    "keyword": "motivation",
+    "search_volume": 8887,
+    "keyword_difficulty": 11,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/team-psychologie-soziales-faulenzen-und-andere-gruppenphanomene"
+  },
+  {
+    "id": "recHOgBxXPYGTIAEu",
+    "keyword": "marktvolumen facility services",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/facility-services-auf-wachstumskurs"
+  },
+  {
+    "id": "recHPMbGOaZ7aMVMx",
+    "keyword": "lohnabrechnung auslagern",
+    "search_volume": 115,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "commercial",
+    "blog_url": "https://zvoove.de/wissen/blog/zvoove-im-kundeneinsatz-die-erfolgsgeschichte-mks-gmbh"
+  },
+  {
+    "id": "recHayklfxdGX3PxH",
+    "keyword": "ausbildung",
+    "search_volume": 105490,
+    "keyword_difficulty": 87,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/interview-mit-einem-syrischen-fluchtling"
+  },
+  {
+    "id": "recHctrUUSIrNzXNK",
+    "keyword": "branchenzuschläge",
+    "search_volume": 115,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/gesetzliches-und-tarifliches-equal-pay-richtig-umsetzen"
+  },
+  {
+    "id": "recHqAWj5hqEy5CIk",
+    "keyword": "hinzuverdienstgrenze",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/rentner-kampf-gegen-fachkraftemangel"
+  },
+  {
+    "id": "recI0vM28IkZzuoNT",
+    "keyword": "digitale arbeitsscheine",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/mit-digitalen-arbeitsscheinen-in-die-zukunft"
+  },
+  {
+    "id": "recI2Z0lxYDjgyIfy",
+    "keyword": "pfändungsfreigrenzen 2025",
+    "search_volume": 461,
+    "keyword_difficulty": 0,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/neue-pfaendungsfreigrenzen-ab-juli-2025"
+  },
+  {
+    "id": "recIFUuiR0Pm5Sx1N",
+    "keyword": "recruiting software",
+    "search_volume": 461,
+    "keyword_difficulty": 12,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "commercial",
+    "blog_url": "https://zvoove.de/wissen/blog/zvoove-auf-der-staffingpro-2025-ki-revolution-im-recruiting-live-erleben"
+  },
+  {
+    "id": "recINlccyXjwErAOi",
+    "keyword": "personalbedarfsplanung",
+    "search_volume": 807,
+    "keyword_difficulty": 0,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/brutto-personalbedarf-und-netto-personalbedarf"
+  },
+  {
+    "id": "recIVbixBvLTDMUmr",
+    "keyword": "prompting",
+    "search_volume": 4039,
+    "keyword_difficulty": 1,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/richtig-prompten-mit-generativer-ki"
+  },
+  {
+    "id": "recIcUTteRgR1bH3z",
+    "keyword": "eignungsdiagnostik",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/assessment-center-entwickeln-kennen-sie-die-wichtigsten-anforderungen"
+  },
+  {
+    "id": "recIgzRnQ7zAzCjUA",
+    "keyword": "reinigungskräfte",
+    "search_volume": 230,
+    "keyword_difficulty": 37,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/daytime-cleaning-bessere-arbeitszeiten-attraktivitaet-von-gebaudedienstleistern"
+  },
+  {
+    "id": "recIrf4NxBFGe32BT",
+    "keyword": "leiharbeit in der pflege",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/weniger-zeitarbeit-in-der-pflege-kosmetik-statt-echte-problemlosung"
+  },
+  {
+    "id": "recIsWmR9y5WydIVt",
+    "keyword": "x-rechnung",
+    "search_volume": 577,
+    "keyword_difficulty": 79,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/pflicht-zur-elektronischen-rechnung-kommt"
+  },
+  {
+    "id": "recIwvFc8QWySuRgI",
+    "keyword": "digitalisierungsstrategie",
+    "search_volume": 0,
+    "keyword_difficulty": 17,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/zeitarbeit-orientierung-mit-dem-digitalisierungsnavigator"
+  },
+  {
+    "id": "recJ93FBuqQejvA9P",
+    "keyword": "gebäudedienstleister tarifvertrag",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/neuer-tarif-in-der-gebaeudereinigung"
+  },
+  {
+    "id": "recJ9FFTZqheENwNN",
+    "keyword": "merkblatt leiharbeit",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/neues-merkblatt-fuer-zeitarbeit"
+  },
+  {
+    "id": "recJ9U14bOHLo9Wgk",
+    "keyword": "digitale transformation",
+    "search_volume": 10041,
+    "keyword_difficulty": 24,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/zukunft-gestalten-gemeinsam-tag-der-personaldienstleister-2025-jetzt-anmelden"
+  },
+  {
+    "id": "recJRM5QBC5utUHlw",
+    "keyword": "personalplanung",
+    "search_volume": 923,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/mit-daten-in-die-zukunft-blicken-was-ist-predictive-analytics"
+  },
+  {
+    "id": "recJjysqW7JzoDHiO",
+    "keyword": "bewerbermanagementsoftware",
+    "search_volume": 0,
+    "keyword_difficulty": 10,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/kuenstliche-intelligenz-im-recruiting"
+  },
+  {
+    "id": "recJv97T2uaRg1m6X",
+    "keyword": "entgelttabelle",
+    "search_volume": 230,
+    "keyword_difficulty": 56,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/zeitarbeit-was-andert-sich-2022"
+  },
+  {
+    "id": "recJwNUiEI43XH9Ut",
+    "keyword": "zeitarbeit",
+    "search_volume": 6347,
+    "keyword_difficulty": 38,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/jetzt-teilnehmen-branchenumfrage-industry-pulse-2026"
+  },
+  {
+    "id": "recK0nFSiIc7zMEQt",
+    "keyword": "ki im unternehmen",
+    "search_volume": 346,
+    "keyword_difficulty": 13,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/ki-im-unternehmen-stolpersteine"
+  },
+  {
+    "id": "recK2VFJMRW9DTKKL",
+    "keyword": "beschäftigungspflicht schwerbehinderte",
+    "search_volume": 0,
+    "keyword_difficulty": 92,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/ausgleichsabgabe-fuer-unternehmen-steigt"
+  },
+  {
+    "id": "recK8ZZWIyRX75lEq",
+    "keyword": "arbeitszeiterfassung",
+    "search_volume": 6232,
+    "keyword_difficulty": 18,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/aktuelles-urteil-zum-abzug-von-minusstunden"
+  },
+  {
+    "id": "recKAKy49xz3WFaTq",
+    "keyword": "robotik",
+    "search_volume": 9002,
+    "keyword_difficulty": 18,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/robotik-und-budgets-wie-sich-gebaeudedienstleistungen-in-krankenhaeusern-veraendern"
+  },
+  {
+    "id": "recKIX4q5aa0Q0kWJ",
+    "keyword": "schriftform zeitarbeit",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/wegfall-der-schriftform-in-der-zeitarbeit"
+  },
+  {
+    "id": "recKWH1aluw4PK8mH",
+    "keyword": "daytime cleaning",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/daytime-cleaning-bessere-arbeitszeiten-attraktivitaet-von-gebaudedienstleistern"
+  },
+  {
+    "id": "recKgHSNf2LegZRRw",
+    "keyword": "vertragsfreiheit",
+    "search_volume": 1500,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/arbeitsvertrag-welche-inhalte-sind-wichtig"
+  },
+  {
+    "id": "recKjOeutMH08oPBj",
+    "keyword": "time-to-hire senken",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "commercial",
+    "blog_url": "https://zvoove.de/wissen/blog/zvoove-auf-der-staffingpro-2025-ki-revolution-im-recruiting-live-erleben"
+  },
+  {
+    "id": "recKqkHoj5iS3eS1Q",
+    "keyword": "saas zeitarbeit",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/einfach-antworten-finden-wie-sie-auoffice-infotheken-nutzen"
+  },
+  {
+    "id": "recL3Y1J2vE2BfFaH",
+    "keyword": "personalcontrolling instrumente",
+    "search_volume": 0,
+    "keyword_difficulty": 52,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/die-wichtigsten-instrumente-im-personalcontrolling-benchmarking"
+  },
+  {
+    "id": "recL4wqYZvIL6dxTj",
+    "keyword": "digitales recruiting",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/fachkraeftemangel-personaldienstleistung"
+  },
+  {
+    "id": "recL8B3tGBYbX4s8i",
+    "keyword": "personalauswahl",
+    "search_volume": 0,
+    "keyword_difficulty": 1,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/fragen-luegen-im-vorstellungsgespraech"
+  },
+  {
+    "id": "recLkSm3lnRE63v48",
+    "keyword": "pueg",
+    "search_volume": 461,
+    "keyword_difficulty": 31,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/wichtige-anderungen-im-juli-pflegebeitrage-in-der-lohnabrechnung-anpassen"
+  },
+  {
+    "id": "recLyvc772Aygf9ko",
+    "keyword": "integrationsamt",
+    "search_volume": 1038,
+    "keyword_difficulty": 14,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/ausgleichsabgabe-fuer-unternehmen-steigt"
+  },
+  {
+    "id": "recM60fBD10YbRIDq",
+    "keyword": "beitragssatz pflegeversicherung",
+    "search_volume": 346,
+    "keyword_difficulty": 11,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/wichtige-anderungen-im-juli-pflegebeitrage-in-der-lohnabrechnung-anpassen"
+  },
+  {
+    "id": "recMAoeYEhANSddOG",
+    "keyword": "meldestelle einrichten",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/hinweisgeberschutzgesetz-personaldienstleistung"
+  },
+  {
+    "id": "recMV4fTP4bS5da1s",
+    "keyword": "aüg software",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/einfach-antworten-finden-wie-sie-auoffice-infotheken-nutzen"
+  },
+  {
+    "id": "recMjGRHH2El4FFCs",
+    "keyword": "branchenmindestlohn",
+    "search_volume": 115,
+    "keyword_difficulty": 31,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/neue-lohnuntergrenze-in-der-personaldienstleistung"
+  },
+  {
+    "id": "recMp44xIEwA4teg0",
+    "keyword": "bedarf an arbeitskräften",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/arbeitsmarktdaten-zeitarbeit-mit-lichtblicken-in-schwierigen-zeiten"
+  },
+  {
+    "id": "recN1jV9QJPGkJey0",
+    "keyword": "mitarbeiterfeedback",
+    "search_volume": 115,
+    "keyword_difficulty": 12,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/arbeitgeber-bewertungsportale"
+  },
+  {
+    "id": "recNA5BB5eFDCo1oZ",
+    "keyword": "produktivitäts-booster",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/ki-in-der-personaldienstleistung"
+  },
+  {
+    "id": "recNPgcYFKFgXQ9EF",
+    "keyword": "fachkräftemangel gebäudedienstleistung",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/facility-services-auf-wachstumskurs"
+  },
+  {
+    "id": "recNQrhj2PTOF4eeB",
+    "keyword": "bachelor human resource management",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/studiengang-personaldienstleistung"
+  },
+  {
+    "id": "recNeDOyUSVHo6pS9",
+    "keyword": "digitale zeiterfassung zeitarbeit",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "commercial",
+    "blog_url": "https://zvoove.de/wissen/blog/zvoove-im-kundeneinsatz-wromidt-personal"
+  },
+  {
+    "id": "recNhCvgq4C2mdhn4",
+    "keyword": "digitalisierung in der reinigung",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/cms-berlin-2023-die-highlights-der-reinigungsmesse"
+  },
+  {
+    "id": "recNtIJTxOCzC21sI",
+    "keyword": "digitale gehaltsabrechnung",
+    "search_volume": 0,
+    "keyword_difficulty": 16,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/digitale-gehaltsabrechnung-bundesarbeitsgericht-staerkt-rechtssicherheit-zvoove"
+  },
+  {
+    "id": "recNvDMdKWyFWh73m",
+    "keyword": "stellenbeschreibung erstellen",
+    "search_volume": 115,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/verpassen-sie-blos-nicht-diese-3-innovationen-fur-personaldienstleister"
+  },
+  {
+    "id": "recNviR42wtIakLR7",
+    "keyword": "automatisierung reinigung",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/innovative-produkte-der-gebaudedienstleistung-2023"
+  },
+  {
+    "id": "recOd8P7KkkwsFo2N",
+    "keyword": "prozessautomatisierung personaldienstleistung",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "commercial",
+    "blog_url": "https://zvoove.de/wissen/blog/zvoove-im-kundeneinsatz-wromidt-personal"
+  },
+  {
+    "id": "recOr3POCp0unARzJ",
+    "keyword": "talentpool dsgvo",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/datenschutz-im-bewerbungsverfahren-was-mussen-recruiter-unbedingt-beachten"
+  },
+  {
+    "id": "recOrGCUXF6I2slcw",
+    "keyword": "arbeitsproduktivität berechnen",
+    "search_volume": 230,
+    "keyword_difficulty": 0,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/arbeitsproduktivitat-messen-wie-effektiv-ist-der-einsatz-des-faktors-arbeit"
+  },
+  {
+    "id": "recOrVxz8YV6edaKU",
+    "keyword": "personalcontrolling",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/grundlagen-fur-ein-nachhaltiges-personalmanagement"
+  },
+  {
+    "id": "recOuxF6CZpUhFgyR",
+    "keyword": "sv.net abschaltung",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/neues-meldeportal-sozialversicherung"
+  },
+  {
+    "id": "recOwgwcO6V2tj5KA",
+    "keyword": "versicherungspflichtgrenze",
+    "search_volume": 1038,
+    "keyword_difficulty": 12,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/beitragsbemessungsgrenzen-fuer-sozialbeitraege-fuer-2024-neu-festgelegt"
+  },
+  {
+    "id": "recP3fQLqgCubEcGE",
+    "keyword": "lohnkosten senken",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/lohnabrechnung-im-griff-wie-gebaudedienstleister-aufwand-und-kosten-senken"
+  },
+  {
+    "id": "recP66LfVvIyeTwLy",
+    "keyword": "arbeitnehmer-sparzulage",
+    "search_volume": 7155,
+    "keyword_difficulty": 15,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/finanzielle-anreize-fur-mitarbeiter-schaffen"
+  },
+  {
+    "id": "recPDfjZPtpTiaZED",
+    "keyword": "arbeitszeitkonto zeitarbeit",
+    "search_volume": 0,
+    "keyword_difficulty": 50,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/einheitlicher-tarifvertrag-in-der-zeitarbeit-ab-2026"
+  },
+  {
+    "id": "recPEObN1quDq9ZSA",
+    "keyword": "vl arbeitgeber",
+    "search_volume": 115,
+    "keyword_difficulty": 19,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/finanzielle-anreize-fur-mitarbeiter-schaffen"
+  },
+  {
+    "id": "recPiExoKcIQPfmA1",
+    "keyword": "zeitarbeitsfirma",
+    "search_volume": 4732,
+    "keyword_difficulty": 91,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/woran-erkennt-man-eine-gute-zeitarbeitsfirma"
+  },
+  {
+    "id": "recPjGSoO8AvU2KSd",
+    "keyword": "recruiting-prozess optimieren",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/die-stellenausschreibung-als-wichtiges-tool-im-bewerbermanagement"
+  },
+  {
+    "id": "recPlBtzaItWmukvI",
+    "keyword": "zeitarbeitssoftware",
+    "search_volume": 0,
+    "keyword_difficulty": 52,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "commercial",
+    "blog_url": "https://zvoove.de/wissen/blog/zvoove-im-kundeneinsatz-die-erfolgsgeschichte-zeitpunkt"
+  },
+  {
+    "id": "recPvuWlHyCru7fxG",
+    "keyword": "passive sourcing",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/passive-sourcing-tipps-fur-das-online-recruiting"
+  },
+  {
+    "id": "recQHAHgSswdzXoYn",
+    "keyword": "gruppendynamik",
+    "search_volume": 1038,
+    "keyword_difficulty": 4,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/team-psychologie-soziales-faulenzen-und-andere-gruppenphanomene"
+  },
+  {
+    "id": "recQNtevEALEBK2Vb",
+    "keyword": "erlaubnis zur arbeitnehmerüberlassung",
+    "search_volume": 115,
+    "keyword_difficulty": 15,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/erlaubnis-arbeitnehmerueberlassung-beantragen"
+  },
+  {
+    "id": "recQb9gh6aUhYXgtH",
+    "keyword": "mitarbeiterbeurteilung",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/personal-und-bewerber-richtig-beurteilen-die-haufigsten-beurteilungsfehler"
+  },
+  {
+    "id": "recQfT92eu24xBz1O",
+    "keyword": "nachweisgesetz",
+    "search_volume": 3116,
+    "keyword_difficulty": 18,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/wegfall-der-schriftform-in-der-zeitarbeit"
+  },
+  {
+    "id": "recQnGzr9HqZcoryK",
+    "keyword": "zeitarbeitsfirma gründen",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/businessplan-zeitarbeitsfirma"
+  },
+  {
+    "id": "recR1UtNyOPvTUtoI",
+    "keyword": "dgb gvp tarifvertrag",
+    "search_volume": 230,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/einheitlicher-tarifvertrag-in-der-zeitarbeit-ab-2026"
+  },
+  {
+    "id": "recR7cHnsAF8TxwVC",
+    "keyword": "zeitarbeit liquidität",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "commercial",
+    "blog_url": "https://zvoove.de/wissen/blog/zeitarbeit-unter-druck-liquiditaet-entscheidender-faktor"
+  },
+  {
+    "id": "recR8zMNSetmrWjeO",
+    "keyword": "prognostische validität",
+    "search_volume": 230,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/assessment-center-entwickeln-kennen-sie-die-wichtigsten-anforderungen"
+  },
+  {
+    "id": "recRBMPDkKPYcmfh8",
+    "keyword": "pflichtquote schwerbehinderte",
+    "search_volume": 0,
+    "keyword_difficulty": 55,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/ausgleichsabgabe-fuer-unternehmen-steigt"
+  },
+  {
+    "id": "recRJZZUggKOETphR",
+    "keyword": "automatisierung gebäudereinigung",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/cms-berlin-2023-die-highlights-der-reinigungsmesse"
+  },
+  {
+    "id": "recRMVsa3fLwBsYhA",
+    "keyword": "externes personalmarketing",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/externes-personalmarketing-optimale-recruiting-voraussetzungen"
+  },
+  {
+    "id": "recRTfjVm0Lv9cUwF",
+    "keyword": "fachliche weisungen aüg",
+    "search_volume": 230,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/zeitarbeit-fachliche-weisungen-aueg-aktualisiert"
+  },
+  {
+    "id": "recRkJRcZ3aKmYX4B",
+    "keyword": "personengesellschaft vorteile",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/zeitarbeitsfirma-gruenden-welche-rechtsform-ist-die-richtige-fuer-mich"
+  },
+  {
+    "id": "recRlClABTWzsvExc",
+    "keyword": "forderungsmanagement",
+    "search_volume": 2192,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "commercial",
+    "blog_url": "https://zvoove.de/wissen/blog/liquiditaet-sichern-factoring-personaldienstleister"
+  },
+  {
+    "id": "recRq5nttXFR3EPOD",
+    "keyword": "personalvermittlung",
+    "search_volume": 4385,
+    "keyword_difficulty": 45,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/fachkraeftemangel-personaldienstleistung"
+  },
+  {
+    "id": "recS3daIfxEPzKtiw",
+    "keyword": "lohnbuchhaltung automatisieren",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "commercial",
+    "blog_url": "https://zvoove.de/wissen/blog/zvoove-kundenreferenz-emswork"
+  },
+  {
+    "id": "recS7dPaYZCTNaPZG",
+    "keyword": "moderne arbeitswelten",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "commercial",
+    "blog_url": "https://zvoove.de/wissen/blog/zvoove-im-kundeneinsatz-echterdinger-personal"
+  },
+  {
+    "id": "recS8LouuxiuxTqch",
+    "keyword": "lohnabrechnung",
+    "search_volume": 18928,
+    "keyword_difficulty": 19,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "commercial",
+    "blog_url": "https://zvoove.de/wissen/blog/zvoove-im-kundeneinsatz-die-erfolgsgeschichte-mks-gmbh"
+  },
+  {
+    "id": "recSKscvqdUpZY3Hl",
+    "keyword": "deüv-verfahren",
+    "search_volume": 115,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/neues-jahr-wichtige-aenderungen-fuer-personaldienstleister"
+  },
+  {
+    "id": "recSNOUYZlTauoj4i",
+    "keyword": "abgabepflicht kurzarbeit",
+    "search_volume": 0,
+    "keyword_difficulty": 10,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/steuererklarung-abgabepflicht-fur-kurzarbeiter"
+  },
+  {
+    "id": "recSVMOlKybKp69jY",
+    "keyword": "bewerberansprache",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/wunschkandidaten-mit-candidate-personas-finden-und-ueberzeugen"
+  },
+  {
+    "id": "recSk6YY9j4iOqCaC",
+    "keyword": "arbeitsmarktintegration",
+    "search_volume": 0,
+    "keyword_difficulty": 14,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/tag-der-personaldienstleister"
+  },
+  {
+    "id": "recSoKnDPSvmLNtv6",
+    "keyword": "personalrekrutierung",
+    "search_volume": 115,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/externes-personalmarketing-optimale-recruiting-voraussetzungen"
+  },
+  {
+    "id": "recSsC0qSAasmtVjG",
+    "keyword": "mitarbeiterzufriedenheit",
+    "search_volume": 346,
+    "keyword_difficulty": 12,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/mitarbeiter-motivieren"
+  },
+  {
+    "id": "recT15rlPKr80ECR5",
+    "keyword": "leiharbeit",
+    "search_volume": 115,
+    "keyword_difficulty": 15,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "commercial",
+    "blog_url": "https://zvoove.de/wissen/blog/zeitarbeit-fur-studenten-ein-attraktives-modell"
+  },
+  {
+    "id": "recT23860trFR1cLc",
+    "keyword": "wahrnehmungsfehler",
+    "search_volume": 115,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/personal-und-bewerber-richtig-beurteilen-die-haufigsten-beurteilungsfehler"
+  },
+  {
+    "id": "recTDKT6DI4gptQu5",
+    "keyword": "unfallanzeige elektronisch",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/arbeitsunfaelle-elektronisch-melden"
+  },
+  {
+    "id": "recTcOog4XOVjXpzg",
+    "keyword": "telefonakquise",
+    "search_volume": 346,
+    "keyword_difficulty": 0,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/leitfaden-fur-die-telefonakquise-so-gehts"
+  },
+  {
+    "id": "recToYBgQnvdUhjUJ",
+    "keyword": "fachkräfteeinwanderung",
+    "search_volume": 230,
+    "keyword_difficulty": 20,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/interview-mit-einem-syrischen-fluchtling"
+  },
+  {
+    "id": "recTunIaVuAiDwTZD",
+    "keyword": "gmbh gründung",
+    "search_volume": 1269,
+    "keyword_difficulty": 3,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/zeitarbeitsfirma-gruenden-welche-rechtsform-ist-die-richtige-fuer-mich"
+  },
+  {
+    "id": "recU5rp73N7zytWHK",
+    "keyword": "arbeitgeberimage",
+    "search_volume": 230,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/arbeitgeber-bewertungsportale"
+  },
+  {
+    "id": "recUEx3T0p8tsgyiF",
+    "keyword": "personaldisponent vertrieb",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/kunden-per-telefon-gewinnen-erfolgreiche-telefonakquise-in-der-zeitarbeit"
+  },
+  {
+    "id": "recULwqdwhTlaVwew",
+    "keyword": "mitarbeiter finden",
+    "search_volume": 1385,
+    "keyword_difficulty": 33,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/mit-ebay-kleinanzeigen-zum-neuen-mitarbeiter"
+  },
+  {
+    "id": "recUY0wY0idPgVI8Q",
+    "keyword": "mindestlohn personaldienstleistung",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/neue-lohnuntergrenze-in-der-personaldienstleistung"
+  },
+  {
+    "id": "recUadBkpM6Bzf0ex",
+    "keyword": "ai literacy",
+    "search_volume": 1846,
+    "keyword_difficulty": 34,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/eu-ai-act-was-personaldienstleister-wissen-muessen"
+  },
+  {
+    "id": "recUjTg5z1buqlcuB",
+    "keyword": "gebäudereinigung tarif",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/neuer-tarif-in-der-gebaeudereinigung"
+  },
+  {
+    "id": "recUkUSwKiBRogjMK",
+    "keyword": "interne meldestelle",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/hinweisgeberschutzgesetz-personaldienstleistung"
+  },
+  {
+    "id": "recUvgjlH8IXr2cxo",
+    "keyword": "hr-outsourcing",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/hr-outsourcing-chancen-risiken-der-auslagerung"
+  },
+  {
+    "id": "recUzyfTH6IGC8VZd",
+    "keyword": "kurzarbeit",
+    "search_volume": 7155,
+    "keyword_difficulty": 33,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/arbeitsmarktdaten-zeitarbeit-mit-lichtblicken-in-schwierigen-zeiten"
+  },
+  {
+    "id": "recV9bBvUpl4Bhwam",
+    "keyword": "aü-erlaubnis beantragen",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/als-grunder-durchstarten-so-grunden-sie-eine-zeitarbeitsfirma"
+  },
+  {
+    "id": "recVC9Xh3Wzn61Mwi",
+    "keyword": "neukundengewinnung zeitarbeit",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/kunden-per-telefon-gewinnen-erfolgreiche-telefonakquise-in-der-zeitarbeit"
+  },
+  {
+    "id": "recVDnhHvYscTswnA",
+    "keyword": "gesprächsleitfaden",
+    "search_volume": 115,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/leitfaden-fur-die-telefonakquise-so-gehts"
+  },
+  {
+    "id": "recVHBHDeE9juCUbC",
+    "keyword": "personaldienstleistung digitalisierung",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "commercial",
+    "blog_url": "https://zvoove.de/wissen/blog/zentral-fuer-personaldienstleister-das-ist-ein-applicant-tracking-system-ats"
+  },
+  {
+    "id": "recVNMDnmcOndOJ1O",
+    "keyword": "zeitarbeit 2025",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/neuheiten-in-der-personaldienstleistung-im-kommenden-jahr"
+  },
+  {
+    "id": "recVNTsmDQdH1ROLi",
+    "keyword": "teilzeitanspruch",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/arbeitnehmerrechte-auserhalb-unbefristeter-vollzeitstellen"
+  },
+  {
+    "id": "recVX3hqGJx7mtQE9",
+    "keyword": "fachkongress personaldienstleistung",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/tag-der-personaldienstleister"
+  },
+  {
+    "id": "recVYi6WBKROZXTVB",
+    "keyword": "umsatzsteuer-identifikationsnummer",
+    "search_volume": 6001,
+    "keyword_difficulty": 28,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/alles-zur-neuen-wirtschafts-identifikationsnummer"
+  },
+  {
+    "id": "recVhjPFZFKZGn6HI",
+    "keyword": "entgelttabellen zeitarbeit",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/tarifabschluss-zeitarbeit-loehne-steigen-in-3-stufen"
+  },
+  {
+    "id": "recVmupkBKNHCISMO",
+    "keyword": "lohnbuchhaltung outsourcen",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "commercial",
+    "blog_url": "https://zvoove.de/wissen/blog/zvoove-im-kundeneinsatz-die-erfolgsgeschichte-sedona"
+  },
+  {
+    "id": "recVuU9XW3VDxFojw",
+    "keyword": "gehaltsextras",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/finanzielle-anreize-fur-mitarbeiter-schaffen"
+  },
+  {
+    "id": "recW1jc2QMSDgOlSK",
+    "keyword": "arbeitnehmerüberlassung pflege",
+    "search_volume": 0,
+    "keyword_difficulty": 15,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/zeitarbeit-in-der-pflege-vor-und-nachteile"
+  },
+  {
+    "id": "recWEFnAH5wYjxF8X",
+    "keyword": "ki-compliance hr",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/eu-ai-act-was-personaldienstleister-wissen-muessen"
+  },
+  {
+    "id": "recWFHl03asXmnmiX",
+    "keyword": "midijob",
+    "search_volume": 13619,
+    "keyword_difficulty": 6,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/midijob-was-ist-das"
+  },
+  {
+    "id": "recWI56r9GmJzpuwR",
+    "keyword": "personaldienstleistung tarifvertrag",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/tarif-in-der-personaldienstleistung-loehne-steigen-maerz-2025"
+  },
+  {
+    "id": "recWIIuJpgSDxBzjJ",
+    "keyword": "elektronische rechnung",
+    "search_volume": 1269,
+    "keyword_difficulty": 56,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/pflicht-zur-elektronischen-rechnung-kommt"
+  },
+  {
+    "id": "recWKDbI4TSPl9AHj",
+    "keyword": "equal pay zeitarbeit",
+    "search_volume": 346,
+    "keyword_difficulty": 3,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "commercial",
+    "blog_url": "https://zvoove.de/wissen/blog/zvoove-die-erfolgsgeschichte-a-team"
+  },
+  {
+    "id": "recWUI0PosKrJd80T",
+    "keyword": "w-idnr",
+    "search_volume": 2308,
+    "keyword_difficulty": 7,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/alles-zur-neuen-wirtschafts-identifikationsnummer"
+  },
+  {
+    "id": "recWUXBxc5XLuRWhf",
+    "keyword": "erwartungsmanagement",
+    "search_volume": 577,
+    "keyword_difficulty": 0,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/ich-erwarte-was-was-du-nicht-weist-erfolgreiches-erwartungsmanagement"
+  },
+  {
+    "id": "recWYL3bkmjzSnSNb",
+    "keyword": "diskriminierung im auswahlverfahren",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/bewerbungsabsage-klagen-vermeiden"
+  },
+  {
+    "id": "recWhJOml1nw7FNTj",
+    "keyword": "integration am arbeitsplatz",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/interview-mit-einem-syrischen-fluchtling"
+  },
+  {
+    "id": "recX1fppPzXtalgAQ",
+    "keyword": "recruiting",
+    "search_volume": 14311,
+    "keyword_difficulty": 13,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/ki-game-changer-personaldienstleistung"
+  },
+  {
+    "id": "recX4X4RpyXuPbQnq",
+    "keyword": "minijob vs midijob",
+    "search_volume": 461,
+    "keyword_difficulty": 6,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/midijob-was-ist-das"
+  },
+  {
+    "id": "recXJF4weN7HfBPpl",
+    "keyword": "ats zeitarbeit",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "commercial",
+    "blog_url": "https://zvoove.de/wissen/blog/zentral-fuer-personaldienstleister-das-ist-ein-applicant-tracking-system-ats"
+  },
+  {
+    "id": "recXXogdmx9Z3cr0M",
+    "keyword": "verzeichnis der verarbeitungstätigkeiten",
+    "search_volume": 0,
+    "keyword_difficulty": 11,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/personenbezogene-daten-schutzen-praktische-tipps"
+  },
+  {
+    "id": "recXYebq5LSYSZvFX",
+    "keyword": "personaldienstleister digitalisierung",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/zeitarbeit-orientierung-mit-dem-digitalisierungsnavigator"
+  },
+  {
+    "id": "recXvA9O7t4Xzhaiw",
+    "keyword": "tarifwerk zeitarbeit",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/mindestlohne-steigen-2024-und-2025"
+  },
+  {
+    "id": "recYGP6V9Z766rokC",
+    "keyword": "reinigungsmesse",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/cms-berlin-2023-die-highlights-der-reinigungsmesse"
+  },
+  {
+    "id": "recYJYwwQxQIxKdw4",
+    "keyword": "workforce management",
+    "search_volume": 461,
+    "keyword_difficulty": 0,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/grundlagen-fur-ein-nachhaltiges-personalmanagement"
+  },
+  {
+    "id": "recYVXZ1TYYts3q2P",
+    "keyword": "employer branding recruiting",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/absage-nach-vorstellungsgespraech"
+  },
+  {
+    "id": "recYXx4X6PvMyeMQg",
+    "keyword": "digitalisierung",
+    "search_volume": 5193,
+    "keyword_difficulty": 28,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/ki-game-changer-personaldienstleistung"
+  },
+  {
+    "id": "recYbPUAbwmAFlbXm",
+    "keyword": "fluktuationskosten",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/gehen-oder-bleiben-warum-mitarbeiter-kuendigen"
+  },
+  {
+    "id": "recYcugHYeWNWVk8m",
+    "keyword": "midijob verdienstgrenze",
+    "search_volume": 0,
+    "keyword_difficulty": 24,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/midijob-was-ist-das"
+  },
+  {
+    "id": "recYePgfjNg3Qtu0Y",
+    "keyword": "zahlungsausfallrisiko",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "commercial",
+    "blog_url": "https://zvoove.de/wissen/blog/liquiditaet-sichern-factoring-personaldienstleister"
+  },
+  {
+    "id": "recYgKbH0wBeNL1TA",
+    "keyword": "arbeitsunfall melden",
+    "search_volume": 230,
+    "keyword_difficulty": 0,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/arbeitsunfaelle-elektronisch-melden"
+  },
+  {
+    "id": "recYntGlqVl4d04dP",
+    "keyword": "vermögenswirksame leistungen",
+    "search_volume": 23660,
+    "keyword_difficulty": 32,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/finanzielle-anreize-fur-mitarbeiter-schaffen"
+  },
+  {
+    "id": "recYyhmxI5XMVWx10",
+    "keyword": "lünendonk-studie",
+    "search_volume": 0,
+    "keyword_difficulty": 8,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/facility-services-auf-wachstumskurs"
+  },
+  {
+    "id": "recZ21lOdqPG6DUVs",
+    "keyword": "elektronischer datenaustausch",
+    "search_volume": 0,
+    "keyword_difficulty": 10,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/neues-meldeportal-sozialversicherung"
+  },
+  {
+    "id": "recZ51t9nN4KoWnXM",
+    "keyword": "candidate persona",
+    "search_volume": 807,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/das-aida-modell-im-recruiting-prozess"
+  },
+  {
+    "id": "recZ57V0RW3jirnfN",
+    "keyword": "managed services",
+    "search_volume": 1385,
+    "keyword_difficulty": 1,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "commercial",
+    "blog_url": "https://zvoove.de/wissen/blog/managed-services-gegen-transformationsdruck-und-fachkraeftemangel"
+  },
+  {
+    "id": "recZQQSHMdWCzhc7O",
+    "keyword": "bürokratieabbau unternehmen",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/neues-burokratieentlastungsgesetz-eckpunkte-festgelegt"
+  },
+  {
+    "id": "recZTohu5HcJiwL0R",
+    "keyword": "bewerbungsgespräch",
+    "search_volume": 7732,
+    "keyword_difficulty": 7,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/fragen-luegen-im-vorstellungsgespraech"
+  },
+  {
+    "id": "recZY8InyrPpKQZs9",
+    "keyword": "active sourcing",
+    "search_volume": 1615,
+    "keyword_difficulty": 15,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/fachkraeftemangel-personaldienstleistung"
+  },
+  {
+    "id": "recZnJfqSH4khOfHj",
+    "keyword": "leitfaden mitarbeitergespräch",
+    "search_volume": 115,
+    "keyword_difficulty": 1,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/mitarbeitergesprach-leitfaden-der-3-phasen-plan"
+  },
+  {
+    "id": "recZp1HCC1FxFwcHF",
+    "keyword": "recruiting prozess automatisieren",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "commercial",
+    "blog_url": "https://zvoove.de/wissen/blog/zentral-fuer-personaldienstleister-das-ist-ein-applicant-tracking-system-ats"
+  },
+  {
+    "id": "recaBs6OOezh01Yb8",
+    "keyword": "telefonakquise zeitarbeit",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/kunden-per-telefon-gewinnen-erfolgreiche-telefonakquise-in-der-zeitarbeit"
+  },
+  {
+    "id": "recaLFSkxMMpBrRNz",
+    "keyword": "berufsbegleitendes studium personaldienstleistung",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/studiengang-personaldienstleistung"
+  },
+  {
+    "id": "recaq2wfHfCJ5AakX",
+    "keyword": "personalwesen auslagern",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/hr-outsourcing-chancen-risiken-der-auslagerung"
+  },
+  {
+    "id": "recb5bp3M3AgIlK1N",
+    "keyword": "branchenzuschläge zeitarbeit",
+    "search_volume": 230,
+    "keyword_difficulty": 0,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/branchenzuschlaege-fuer-zeitarbeitende"
+  },
+  {
+    "id": "recb5lrubm12ojNAE",
+    "keyword": "businessplan zeitarbeit",
+    "search_volume": 0,
+    "keyword_difficulty": 48,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/businessplan-zeitarbeitsfirma"
+  },
+  {
+    "id": "recbBHnfB8WlCcs03",
+    "keyword": "zeitarbeitskräfte",
+    "search_volume": 0,
+    "keyword_difficulty": 7,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "commercial",
+    "blog_url": "https://zvoove.de/wissen/blog/zeitarbeit-sorgt-im-weihnachtsgeschaeft-fuer-entlastung"
+  },
+  {
+    "id": "recbO5RGw3saKS2tP",
+    "keyword": "recruiting-software",
+    "search_volume": 0,
+    "keyword_difficulty": 40,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/recruiting-kpis-so-messen-personaldienstleister-ihren-erfolg"
+  },
+  {
+    "id": "recbVcgxISwcUsonB",
+    "keyword": "lohnerhöhung zeitarbeit",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/tarifabschluss-zeitarbeit-loehne-steigen-in-3-stufen"
+  },
+  {
+    "id": "recbXxfDaQj3W7Lfp",
+    "keyword": "textform",
+    "search_volume": 1269,
+    "keyword_difficulty": 6,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/wegfall-der-schriftformerfordernis-in-der-zeitarbeit-interview-mit-dr-alexander-bissels"
+  },
+  {
+    "id": "recblJsTafWXrHwgi",
+    "keyword": "personaldienstleister",
+    "search_volume": 2308,
+    "keyword_difficulty": 100,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/so-gelingt-der-perfekte-start-onboarding-in-der-zeitarbeit"
+  },
+  {
+    "id": "recbrGbdkRIseB7M7",
+    "keyword": "saas für personaldienstleister",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "commercial",
+    "blog_url": "https://zvoove.de/wissen/blog/zvoove-im-kundeneinsatz-die-erfolgsgeschichte-isk"
+  },
+  {
+    "id": "recbx5YbnVmsQJIWP",
+    "keyword": "personalbedarf vorhersagen",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/kuenstliche-intelligenz-zeitarbeit"
+  },
+  {
+    "id": "recbx65RQyYP0iqXZ",
+    "keyword": "dsgvo personalakte",
+    "search_volume": 0,
+    "keyword_difficulty": 48,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "commercial",
+    "blog_url": "https://zvoove.de/wissen/blog/digitale-personalakte-fuer-personaldienstleister"
+  },
+  {
+    "id": "recc1ChiBqQMJtJjK",
+    "keyword": "personalakte zeitarbeit",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "commercial",
+    "blog_url": "https://zvoove.de/wissen/blog/digitale-personalakte-fuer-personaldienstleister"
+  },
+  {
+    "id": "recc1aqAKmNFFuyxw",
+    "keyword": "datensicherheit cloud",
+    "search_volume": 115,
+    "keyword_difficulty": 8,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/personenbezogene-daten-schutzen-praktische-tipps"
+  },
+  {
+    "id": "reccMEfMPQw2YOdrZ",
+    "keyword": "bewerbermanagement software",
+    "search_volume": 0,
+    "keyword_difficulty": 10,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "commercial",
+    "blog_url": "https://zvoove.de/wissen/blog/zentral-fuer-personaldienstleister-das-ist-ein-applicant-tracking-system-ats"
+  },
+  {
+    "id": "recci0DS5EXTww0j5",
+    "keyword": "mitarbeiterbindung",
+    "search_volume": 461,
+    "keyword_difficulty": 11,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/so-gelingt-der-perfekte-start-onboarding-in-der-zeitarbeit"
+  },
+  {
+    "id": "reccjPW3vWaZpvHGP",
+    "keyword": "fachkräftemangel facility services",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/buergergeld-als-job-killer-in-der-gebaeudedienstleistung"
+  },
+  {
+    "id": "reccrSrJZGazuxthk",
+    "keyword": "gesetzlicher mindestlohn",
+    "search_volume": 1731,
+    "keyword_difficulty": 52,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/mindestlohne-steigen-2024-und-2025"
+  },
+  {
+    "id": "reccyQsAhrQ0iBJhw",
+    "keyword": "mitarbeitergespräch",
+    "search_volume": 4039,
+    "keyword_difficulty": 0,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/mitarbeitergesprach-leitfaden-der-3-phasen-plan"
+  },
+  {
+    "id": "recdF0du7731dtSbK",
+    "keyword": "zeitarbeit digitalisierung",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/zvoove-gvp-industry-pulse-2025-die-wichtigsten-ergebnisse-fuer-die-personaldienstleistung"
+  },
+  {
+    "id": "recdFj4fRjPPgETVV",
+    "keyword": "onboarding neue mitarbeiter",
+    "search_volume": 0,
+    "keyword_difficulty": 2,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "commercial",
+    "blog_url": "https://zvoove.de/wissen/blog/zvoove-im-kundeneinsatz-die-erfolgsgeschichte-p2b"
+  },
+  {
+    "id": "recdJXfriVb8jWVdy",
+    "keyword": "stellenausschreibung",
+    "search_volume": 2885,
+    "keyword_difficulty": 96,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/du-oder-sie-die-richtige-ansprache-in-der-stellenanzeige"
+  },
+  {
+    "id": "recdM6VpYFmE0PdFO",
+    "keyword": "hinweisgeberschutzgesetz",
+    "search_volume": 3924,
+    "keyword_difficulty": 34,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/hinweisgeberschutzgesetz-personaldienstleistung"
+  },
+  {
+    "id": "recdNWqZllE4VNAS8",
+    "keyword": "fachkräfteengpässe akquirieren",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/kunden-per-telefon-gewinnen-erfolgreiche-telefonakquise-in-der-zeitarbeit"
+  },
+  {
+    "id": "recdQxwYfLE68PMZ0",
+    "keyword": "digitale disposition",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "commercial",
+    "blog_url": "https://zvoove.de/wissen/blog/digitale-transformation-in-der-personaldienstleistung"
+  },
+  {
+    "id": "recdZKPw3m8VVAM4X",
+    "keyword": "stellenanzeigen optimieren",
+    "search_volume": 0,
+    "keyword_difficulty": 47,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "commercial",
+    "blog_url": "https://zvoove.de/wissen/blog/peinliche-fehler-in-stellenanzeigen-vermeiden"
+  },
+  {
+    "id": "recdohPAQctke6rBR",
+    "keyword": "innere kündigung",
+    "search_volume": 346,
+    "keyword_difficulty": 4,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/gehen-oder-bleiben-warum-mitarbeiter-kuendigen"
+  },
+  {
+    "id": "recdzs64SrTu5l22j",
+    "keyword": "fachkräftemangel pflege",
+    "search_volume": 115,
+    "keyword_difficulty": 33,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/verbot-von-zeitarbeit-in-der-pflege-neue-forderungen-werden-laut"
+  },
+  {
+    "id": "receDRgXwXOMsd1rC",
+    "keyword": "gehaltsabrechnung software",
+    "search_volume": 0,
+    "keyword_difficulty": 28,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "commercial",
+    "blog_url": "https://zvoove.de/wissen/blog/zvoove-die-erfolgsgeschichte-a-team"
+  },
+  {
+    "id": "receNgn4jfYaHJy5R",
+    "keyword": "performance recruiting",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "commercial",
+    "blog_url": "https://zvoove.de/wissen/blog/ende-von-facebook-jobs-das-ist-eine-starke-alternative"
+  },
+  {
+    "id": "receTt5zmVzzyom2A",
+    "keyword": "digitalisierung hr",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "commercial",
+    "blog_url": "https://zvoove.de/wissen/blog/zukunft-personal-europe-2024-pflichttermin"
+  },
+  {
+    "id": "receg6eOP55H7paPp",
+    "keyword": "digitalisierung gebäudereinigung",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/innovative-produkte-der-gebaudedienstleistung-2023"
+  },
+  {
+    "id": "recep4Jq2uTQwZIA7",
+    "keyword": "arbeitnehmerüberlassungserlaubnis",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/businessplan-zeitarbeitsfirma"
+  },
+  {
+    "id": "recepDVzE8KJufIdv",
+    "keyword": "elektronische arbeitsunfähigkeitsbescheinigung",
+    "search_volume": 1038,
+    "keyword_difficulty": 27,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/das-wichtigste-zum-eau-verfahren-fur-arbeitgeber"
+  },
+  {
+    "id": "recf0lPfGiqcIv4JK",
+    "keyword": "liquiditätsplanung zeitarbeitsfirma",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/zeitarbeitsfirma-startkapital"
+  },
+  {
+    "id": "recfONiR5FNMmkutO",
+    "keyword": "leiharbeitnehmer",
+    "search_volume": 115,
+    "keyword_difficulty": 8,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/warum-sich-zeitarbeit-fur-unternehmen-lohnt"
+  },
+  {
+    "id": "recfYbUIvOkp7RKH2",
+    "keyword": "personalgespräch",
+    "search_volume": 461,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/mitarbeitergesprach-leitfaden-der-3-phasen-plan"
+  },
+  {
+    "id": "recfaskoNzUKYIQaD",
+    "keyword": "gebäudereinigung personalmangel",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/buergergeld-als-job-killer-in-der-gebaeudedienstleistung"
+  },
+  {
+    "id": "recfiew6M7v8UevXT",
+    "keyword": "sozialversicherungspflicht",
+    "search_volume": 2077,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/midijob-was-ist-das"
+  },
+  {
+    "id": "recflH7ijjpYZ0Chb",
+    "keyword": "online-recruiting",
+    "search_volume": 0,
+    "keyword_difficulty": 34,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/passive-sourcing-tipps-fur-das-online-recruiting"
+  },
+  {
+    "id": "recfnGuBmCTT7ugwj",
+    "keyword": "fachkräfte",
+    "search_volume": 692,
+    "keyword_difficulty": 14,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/kleine-belebung-am-arbeitsmarkt"
+  },
+  {
+    "id": "recfvsRHlTkJryVs0",
+    "keyword": "elektronisches mitarbeiterpostfach",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/digitale-gehaltsabrechnung-bundesarbeitsgericht-staerkt-rechtssicherheit-zvoove"
+  },
+  {
+    "id": "recg5sjbH6wMVW8jm",
+    "keyword": "hochrisiko-ki-systeme",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/eu-ai-act-was-personaldienstleister-wissen-muessen"
+  },
+  {
+    "id": "recg7zRWL0lJlR3gK",
+    "keyword": "personaler",
+    "search_volume": 230,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/du-oder-sie-die-richtige-ansprache-in-der-stellenanzeige"
+  },
+  {
+    "id": "recgCJX1EP0iWDEb1",
+    "keyword": "automatisierung verwaltung",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/zeitarbeit-orientierung-mit-dem-digitalisierungsnavigator"
+  },
+  {
+    "id": "recgE5Pj8ZYzcnt1f",
+    "keyword": "zugferd",
+    "search_volume": 13850,
+    "keyword_difficulty": 11,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/digitale-rechnungsstellung-ein-meilenstein-in-der-gebaeudereinigungsbranche"
+  },
+  {
+    "id": "recgE8UsBQ1eldUyQ",
+    "keyword": "cloud-lösung zeitarbeit",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "commercial",
+    "blog_url": "https://zvoove.de/wissen/blog/zvoove-im-kundeneinsatz-die-erfolgsgeschichte-p2b"
+  },
+  {
+    "id": "recgPO8p8gDjZykUL",
+    "keyword": "tarifimport",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "transactional",
+    "blog_url": "https://zvoove.de/wissen/blog/tarifimport-jetzt-verfuegbar-umsetzung-neues-gvp-tarifwerk"
+  },
+  {
+    "id": "recgSyrtZOH6MRvA3",
+    "keyword": "fehlbesetzungen vermeiden",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/assessment-center-pro-und-contra"
+  },
+  {
+    "id": "recgTNywGSaaFaxov",
+    "keyword": "geflüchtete integrieren",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/interview-mit-einem-syrischen-fluchtling"
+  },
+  {
+    "id": "recgc8E0qhz1juPaN",
+    "keyword": "backoffice as a service",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "commercial",
+    "blog_url": "https://zvoove.de/wissen/blog/managed-services-gegen-transformationsdruck-und-fachkraeftemangel"
+  },
+  {
+    "id": "recgjhSle8mGRi8Xr",
+    "keyword": "vorfinanzierung löhne",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "commercial",
+    "blog_url": "https://zvoove.de/wissen/blog/zeitarbeit-unter-druck-liquiditaet-entscheidender-faktor"
+  },
+  {
+    "id": "recgkrKaNAZO0VU2S",
+    "keyword": "digitale lohnabrechnung",
+    "search_volume": 692,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "commercial",
+    "blog_url": "https://zvoove.de/wissen/blog/zvoove-im-kundeneinsatz-hygeia-med"
+  },
+  {
+    "id": "recgwomupVDLS0qVg",
+    "keyword": "gebäudereinigung",
+    "search_volume": 5193,
+    "keyword_difficulty": 54,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/robotik-und-budgets-wie-sich-gebaeudedienstleistungen-in-krankenhaeusern-veraendern"
+  },
+  {
+    "id": "recgyitGFt6aSz2lQ",
+    "keyword": "candidate experience",
+    "search_volume": 692,
+    "keyword_difficulty": 6,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "commercial",
+    "blog_url": "https://zvoove.de/wissen/blog/zentral-fuer-personaldienstleister-das-ist-ein-applicant-tracking-system-ats"
+  },
+  {
+    "id": "recgyqMYLIgNPqPbu",
+    "keyword": "zeitarbeit in der pflege",
+    "search_volume": 115,
+    "keyword_difficulty": 12,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/verbot-von-zeitarbeit-in-der-pflege-neue-forderungen-werden-laut"
+  },
+  {
+    "id": "recgzbhUoNAa8rQRv",
+    "keyword": "fachkräftemangel reinigung",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/cms-berlin-2023-die-highlights-der-reinigungsmesse"
+  },
+  {
+    "id": "rechEJAwYK5Pmfkxf",
+    "keyword": "qualifizierte zeitarbeit",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/das-steckt-hinter-qualifizierter-zeitarbeit"
+  },
+  {
+    "id": "rechFSuMPpqQX0evO",
+    "keyword": "beitragsbemessungsgrenzen 2024",
+    "search_volume": 692,
+    "keyword_difficulty": 4,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/beitragsbemessungsgrenzen-fuer-sozialbeitraege-fuer-2024-neu-festgelegt"
+  },
+  {
+    "id": "rechJwyQmL45dGIpy",
+    "keyword": "ki in der zeitarbeit",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/zvoove-gvp-industry-pulse-2025-die-wichtigsten-ergebnisse-fuer-die-personaldienstleistung"
+  },
+  {
+    "id": "rechL5rCWbS571684",
+    "keyword": "all-in-one lösung personal",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "commercial",
+    "blog_url": "https://zvoove.de/wissen/blog/zvoove-im-kundeneinsatz-hygeia-med"
+  },
+  {
+    "id": "rechP9lw3EspHbk9o",
+    "keyword": "mindestlohn 2024",
+    "search_volume": 10387,
+    "keyword_difficulty": 41,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/mindestlohne-steigen-2024-und-2025"
+  },
+  {
+    "id": "rechRSmJkCV4phUyH",
+    "keyword": "facility service",
+    "search_volume": 230,
+    "keyword_difficulty": 17,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/robotik-und-budgets-wie-sich-gebaeudedienstleistungen-in-krankenhaeusern-veraendern"
+  },
+  {
+    "id": "rechZhc1k7fUxFlAo",
+    "keyword": "lohnabrechnung rechtssicher",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "commercial",
+    "blog_url": "https://zvoove.de/wissen/blog/zvoove-im-kundeneinsatz-die-erfolgsgeschichte-mks-gmbh"
+  },
+  {
+    "id": "rechiek4wnM885pAG",
+    "keyword": "datenschutzeinwilligung",
+    "search_volume": 0,
+    "keyword_difficulty": 27,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/datenschutz-im-bewerbungsverfahren-was-mussen-recruiter-unbedingt-beachten"
+  },
+  {
+    "id": "rechlL6gjjKN4hQgu",
+    "keyword": "au-daten abrufen",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/das-wichtigste-zum-eau-verfahren-fur-arbeitgeber"
+  },
+  {
+    "id": "rechlY3hQWR5tPiSX",
+    "keyword": "payroll outsourcing",
+    "search_volume": 0,
+    "keyword_difficulty": 3,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "commercial",
+    "blog_url": "https://zvoove.de/wissen/blog/zvoove-im-kundeneinsatz-die-erfolgsgeschichte-somi-experts"
+  },
+  {
+    "id": "rechsFtZgdYfdxNB5",
+    "keyword": "konzernprivileg",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/urteil-zum-konzernprivileg-personaldienstleistung"
+  },
+  {
+    "id": "rechuLtieMB7l06Tf",
+    "keyword": "gehaltsabrechnung zeitarbeit",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/neue-pfaendungsfreigrenzen-ab-juli-2025"
+  },
+  {
+    "id": "reci6DrWhRgjYpDs3",
+    "keyword": "tarifvertrag zeitarbeit",
+    "search_volume": 115,
+    "keyword_difficulty": 18,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/einheitlicher-tarifvertrag-in-der-zeitarbeit-ab-2026"
+  },
+  {
+    "id": "reci7ZZ3mHRLNL2mh",
+    "keyword": "digitale workflows zeitarbeit",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "commercial",
+    "blog_url": "https://zvoove.de/wissen/blog/zvoove-im-kundeneinsatz-die-erfolgsgeschichte-isk"
+  },
+  {
+    "id": "reci8NeXGBvWKYvpq",
+    "keyword": "unternehmensbasisdatenregistergesetz",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/alles-zur-neuen-wirtschafts-identifikationsnummer"
+  },
+  {
+    "id": "reciIRMJqDxHdgvby",
+    "keyword": "mindestlohn zeitarbeit",
+    "search_volume": 115,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/2026-jahreswechsel-personaldienstleistung"
+  },
+  {
+    "id": "reciNgAp0JKPrF8s6",
+    "keyword": "factoring personaldienstleister",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "commercial",
+    "blog_url": "https://zvoove.de/wissen/blog/zeitarbeit-unter-druck-liquiditaet-entscheidender-faktor"
+  },
+  {
+    "id": "reciP0dv7dJjIZkeh",
+    "keyword": "gebäudereinigungssoftware",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/digitale-rechnungsstellung-ein-meilenstein-in-der-gebaeudereinigungsbranche"
+  },
+  {
+    "id": "reciQNdsXvBegNXNK",
+    "keyword": "talentpool",
+    "search_volume": 1385,
+    "keyword_difficulty": 8,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "commercial",
+    "blog_url": "https://zvoove.de/wissen/blog/active-sourcing-tools-welche-sind-die-richtigen-fur-mich"
+  },
+  {
+    "id": "reciUKCc4kw79VK5q",
+    "keyword": "aüg textform",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/wegfall-der-schriftform-in-der-zeitarbeit"
+  },
+  {
+    "id": "recimGMJ5BQBe6cYc",
+    "keyword": "minusstunden zeitarbeit",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/aktuelles-urteil-zum-abzug-von-minusstunden"
+  },
+  {
+    "id": "reciqNUSCLt92lOFm",
+    "keyword": "automatisierung zeitarbeit",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "commercial",
+    "blog_url": "https://zvoove.de/wissen/blog/staffingpro-zvoove-freiticket"
+  },
+  {
+    "id": "recir4Y2UM0deVFuu",
+    "keyword": "din 33430",
+    "search_volume": 807,
+    "keyword_difficulty": 7,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/assessment-center-entwickeln-kennen-sie-die-wichtigsten-anforderungen"
+  },
+  {
+    "id": "reciy7cfXlIU9b8h0",
+    "keyword": "auftragsabwicklung zeitarbeit",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "commercial",
+    "blog_url": "https://zvoove.de/wissen/blog/zvoove-im-kundeneinsatz-die-erfolgsgeschichte-henterpersonal"
+  },
+  {
+    "id": "reciyoxi7W8H4lpLC",
+    "keyword": "recruiting prozess",
+    "search_volume": 346,
+    "keyword_difficulty": 0,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/wunschkandidaten-mit-candidate-personas-finden-und-ueberzeugen"
+  },
+  {
+    "id": "recj37GGqH6Juz0WI",
+    "keyword": "gebäudedienstleister",
+    "search_volume": 0,
+    "keyword_difficulty": 58,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/facility-services-auf-wachstumskurs"
+  },
+  {
+    "id": "recjKikYmypSbq9Pk",
+    "keyword": "prozessoptimierung personalabteilung",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/die-wichtigsten-instrumente-im-personalcontrolling-benchmarking"
+  },
+  {
+    "id": "recjMmr4xAJeDRX7K",
+    "keyword": "sozialversicherungsmeldungen",
+    "search_volume": 0,
+    "keyword_difficulty": 10,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/neues-meldeportal-sozialversicherung"
+  },
+  {
+    "id": "recjc3z4yU3VW88es",
+    "keyword": "entgeltgruppen zeitarbeit",
+    "search_volume": 0,
+    "keyword_difficulty": 14,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "transactional",
+    "blog_url": "https://zvoove.de/wissen/blog/tarifimport-jetzt-verfuegbar-umsetzung-neues-gvp-tarifwerk"
+  },
+  {
+    "id": "recjdWNqfDcJXIMhj",
+    "keyword": "studentenjobs",
+    "search_volume": 6347,
+    "keyword_difficulty": 56,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "commercial",
+    "blog_url": "https://zvoove.de/wissen/blog/zeitarbeit-fur-studenten-ein-attraktives-modell"
+  },
+  {
+    "id": "recjicKTITCGeM1lZ",
+    "keyword": "personaldienstleistung entgelttabellen",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/lohnerhoehung-in-der-personaldienstleistung"
+  },
+  {
+    "id": "recjmHg7JikBai7xR",
+    "keyword": "lebenslauf",
+    "search_volume": 305161,
+    "keyword_difficulty": 66,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/der-perfekte-lebenslauf"
+  },
+  {
+    "id": "recjmmpQeYCZuGjzL",
+    "keyword": "digitale prozesse",
+    "search_volume": 115,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/mit-daten-in-die-zukunft-blicken-was-ist-predictive-analytics"
+  },
+  {
+    "id": "recjofD535AG1Ghjp",
+    "keyword": "jobportal",
+    "search_volume": 9925,
+    "keyword_difficulty": 100,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/mit-ebay-kleinanzeigen-zum-neuen-mitarbeiter"
+  },
+  {
+    "id": "recjzESylsSfbCOTc",
+    "keyword": "arbeitsunfähigkeit zeitarbeit",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/kranke-zeitarbeitnehmer-praxistipps-fur-personaldienstleister"
+  },
+  {
+    "id": "reckMmcjE9iUXzMcj",
+    "keyword": "künstliche intelligenz recruiting",
+    "search_volume": 0,
+    "keyword_difficulty": 48,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/die-personaldienstleistung-aendert-sich-rasant-zcom-2025-zeigt-loesungen-fuer-sie-auf"
+  },
+  {
+    "id": "reckRiGnwQ7fRCUZR",
+    "keyword": "tarifliche stundenlöhne",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/lohnerhoehung-in-der-personaldienstleistung"
+  },
+  {
+    "id": "reckWkezrv6w8aH59",
+    "keyword": "künstliche intelligenz",
+    "search_volume": 41550,
+    "keyword_difficulty": 60,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/jetzt-teilnehmen-branchenumfrage-industry-pulse-2026"
+  },
+  {
+    "id": "reckj9Q7LIrxOqNoq",
+    "keyword": "inklusive stellenanzeigen",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/stellenanzeige-m-w-d-richtige-ansprache-des-dritten-geschlechts"
+  },
+  {
+    "id": "reckjwUVC771w8P5Q",
+    "keyword": "prozesssicherheit zeitarbeit",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "commercial",
+    "blog_url": "https://zvoove.de/wissen/blog/zvoove-im-kundeneinsatz-die-erfolgsgeschichte-zeitpunkt"
+  },
+  {
+    "id": "recklCoGzgPvSS2C0",
+    "keyword": "personal rekrutieren",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "commercial",
+    "blog_url": "https://zvoove.de/wissen/blog/zeitarbeit-sorgt-im-weihnachtsgeschaeft-fuer-entlastung"
+  },
+  {
+    "id": "recklNE9ZrOCp0Ry9",
+    "keyword": "entgeltabrechnung",
+    "search_volume": 2192,
+    "keyword_difficulty": 0,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/digitale-gehaltsabrechnung-bundesarbeitsgericht-staerkt-rechtssicherheit-zvoove"
+  },
+  {
+    "id": "reckuzKONDVkWQuBd",
+    "keyword": "existenzgründung pdl",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "commercial",
+    "blog_url": "https://zvoove.de/wissen/blog/zvoove-im-kundeneinsatz-die-erfolgsgeschichte-raabe"
+  },
+  {
+    "id": "reckvRatvdkYSm4Yr",
+    "keyword": "altersstrukturanalyse",
+    "search_volume": 115,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/hr-controlling-zur-absicherung-gegen-demografische-risiken"
+  },
+  {
+    "id": "reckxGzwYd9o570x5",
+    "keyword": "papierlose prozesse",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/digitale-gehaltsabrechnung-bundesarbeitsgericht-staerkt-rechtssicherheit-zvoove"
+  },
+  {
+    "id": "reckyiDidP5DgpQ3S",
+    "keyword": "datenschutz im recruiting",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/datenschutz-im-bewerbungsverfahren-was-mussen-recruiter-unbedingt-beachten"
+  },
+  {
+    "id": "reclClZP9aYi4hN4p",
+    "keyword": "bruttopersonalbedarf",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/brutto-personalbedarf-und-netto-personalbedarf"
+  },
+  {
+    "id": "reclOcXKrARkAgzzS",
+    "keyword": "ki im recruiting",
+    "search_volume": 346,
+    "keyword_difficulty": 0,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/eu-ai-act-was-personaldienstleister-wissen-muessen"
+  },
+  {
+    "id": "reclVCWhpCOyv4Smz",
+    "keyword": "liquidität sichern",
+    "search_volume": 115,
+    "keyword_difficulty": 0,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "commercial",
+    "blog_url": "https://zvoove.de/wissen/blog/liquiditaet-sichern-factoring-personaldienstleister"
+  },
+  {
+    "id": "reclXXerj62xBH6MY",
+    "keyword": "stellenanzeige m/w/d",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/stellenanzeige-m-w-d-richtige-ansprache-des-dritten-geschlechts"
+  },
+  {
+    "id": "reclfDSbYtFgfJJLm",
+    "keyword": "lohnpfändung",
+    "search_volume": 1154,
+    "keyword_difficulty": 0,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/neue-pfaendungsfreigrenzen-ab-juli-2025"
+  },
+  {
+    "id": "reclnIHYTYGFRi7BB",
+    "keyword": "künstliche intelligenz personalgewinnung",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/kuenstliche-intelligenz-im-recruiting"
+  },
+  {
+    "id": "reclvgoR61H7PXYQt",
+    "keyword": "nachhaltige reinigung",
+    "search_volume": 0,
+    "keyword_difficulty": 6,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/innovative-produkte-der-gebaudedienstleistung-2023"
+  },
+  {
+    "id": "recm1QBU5Xyh1RdtT",
+    "keyword": "schriftformerfordernis",
+    "search_volume": 461,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/wegfall-der-schriftformerfordernis-in-der-zeitarbeit-interview-mit-dr-alexander-bissels"
+  },
+  {
+    "id": "recmNDTaA01P24qsa",
+    "keyword": "genderneutrale stellenausschreibung",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/stellenanzeige-m-w-d-richtige-ansprache-des-dritten-geschlechts"
+  },
+  {
+    "id": "recmNcHge0YKuQHnV",
+    "keyword": "online assessment center",
+    "search_volume": 0,
+    "keyword_difficulty": 3,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/assessment-center-pro-und-contra"
+  },
+  {
+    "id": "recmptqz3j0lea1n4",
+    "keyword": "digitale zeiterfassung",
+    "search_volume": 0,
+    "keyword_difficulty": 24,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "commercial",
+    "blog_url": "https://zvoove.de/wissen/blog/digitale-transformation-in-der-personaldienstleistung"
+  },
+  {
+    "id": "recmtpNEOWIZSNW8H",
+    "keyword": "berufserfahrung",
+    "search_volume": 2539,
+    "keyword_difficulty": 11,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/der-perfekte-lebenslauf"
+  },
+  {
+    "id": "recmzLu2x4PUPPf1U",
+    "keyword": "tarifverträge zeitarbeit",
+    "search_volume": 0,
+    "keyword_difficulty": 20,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/zeitarbeitnehmende-bestimmter-branchen-erhalten-nun-auch-die-inflationsausgleichpramie"
+  },
+  {
+    "id": "recn6MBcci5uAL52x",
+    "keyword": "personalwesen",
+    "search_volume": 461,
+    "keyword_difficulty": 0,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/zukunft-personal-europe-2023-das-erwartet-sie"
+  },
+  {
+    "id": "recnBxOlhPxBaI5gU",
+    "keyword": "onboarding zeitarbeit",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/so-gelingt-der-perfekte-start-onboarding-in-der-zeitarbeit"
+  },
+  {
+    "id": "recnD0if0eK4QQLgL",
+    "keyword": "lohnabrechnung gebäudereinigung",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/neuer-tarif-in-der-gebaeudereinigung"
+  },
+  {
+    "id": "recnJqIipb8CSZTDx",
+    "keyword": "beschäftigungsrisiko",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/aktuelles-urteil-zum-abzug-von-minusstunden"
+  },
+  {
+    "id": "recnQrLSRJH3t05hJ",
+    "keyword": "cloud-erp-lösung",
+    "search_volume": 115,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "commercial",
+    "blog_url": "https://zvoove.de/wissen/blog/staffingpro-zvoove-freiticket"
+  },
+  {
+    "id": "recnSEGizgfJrsnmQ",
+    "keyword": "aüg",
+    "search_volume": 3577,
+    "keyword_difficulty": 44,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/gesetzliches-und-tarifliches-equal-pay-richtig-umsetzen"
+  },
+  {
+    "id": "recnm7uJ2qbZh0umj",
+    "keyword": "branchenmindestlohn gebäudereinigung",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/buergergeld-als-job-killer-in-der-gebaeudedienstleistung"
+  },
+  {
+    "id": "recoC3QW75Xg93BBp",
+    "keyword": "entgelttarifvertrag zeitarbeit",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/tarifabschluss-zeitarbeit-loehne-steigen-in-3-stufen"
+  },
+  {
+    "id": "recoCMxT0yIhBRawJ",
+    "keyword": "zeitarbeit 2026",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/2026-jahreswechsel-personaldienstleistung"
+  },
+  {
+    "id": "recoGlWQg5nwv12dK",
+    "keyword": "recruiting-strategien",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/die-personaldienstleistung-aendert-sich-rasant-zcom-2025-zeigt-loesungen-fuer-sie-auf"
+  },
+  {
+    "id": "recoPkuQ2wvyunzRi",
+    "keyword": "arbeitnehmerüberlassungsvertrag",
+    "search_volume": 115,
+    "keyword_difficulty": 0,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/wegfall-der-schriftformerfordernis-in-der-zeitarbeit-interview-mit-dr-alexander-bissels"
+  },
+  {
+    "id": "recoWKooz4D7QbAbk",
+    "keyword": "wirtschafts-identifikationsnummer",
+    "search_volume": 10156,
+    "keyword_difficulty": 7,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/alles-zur-neuen-wirtschafts-identifikationsnummer"
+  },
+  {
+    "id": "recodOk5iPDXwASIq",
+    "keyword": "tarifzuschläge",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "commercial",
+    "blog_url": "https://zvoove.de/wissen/blog/zvoove-im-kundeneinsatz-die-erfolgsgeschichte-n-o-c-engineering"
+  },
+  {
+    "id": "recojrc9TmlEUyKgh",
+    "keyword": "automatisierung workflows",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/kuenstliche-intelligenz-zeitarbeit"
+  },
+  {
+    "id": "recooVSeqBNjN1GI1",
+    "keyword": "rechtsform zeitarbeit",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/zeitarbeitsfirma-gruenden-welche-rechtsform-ist-die-richtige-fuer-mich"
+  },
+  {
+    "id": "recopzr9KN3u4twfa",
+    "keyword": "inflationsausgleichsprämie",
+    "search_volume": 6117,
+    "keyword_difficulty": 12,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/zeitarbeitnehmende-bestimmter-branchen-erhalten-nun-auch-die-inflationsausgleichpramie"
+  },
+  {
+    "id": "recozzyWXfm4d6EQH",
+    "keyword": "prozessoptimierung recruiting",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "commercial",
+    "blog_url": "https://zvoove.de/wissen/blog/zvoove-auf-der-staffingpro-2025-ki-revolution-im-recruiting-live-erleben"
+  },
+  {
+    "id": "recp8ukHjQl0yD8Py",
+    "keyword": "top-up-studium",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/studiengang-personaldienstleistung"
+  },
+  {
+    "id": "recp9sHWA5zuGo0EH",
+    "keyword": "arbeitsrecht",
+    "search_volume": 3231,
+    "keyword_difficulty": 17,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/arbeitsvertrag-welche-inhalte-sind-wichtig"
+  },
+  {
+    "id": "recpBx8eag5GeQWTR",
+    "keyword": "lohnabrechnung outsourcen",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "commercial",
+    "blog_url": "https://zvoove.de/wissen/blog/zvoove-im-kundeneinsatz-die-erfolgsgeschichte-zeitpunkt"
+  },
+  {
+    "id": "recpDz5ya7Y00TRlN",
+    "keyword": "arbeitsvertrag",
+    "search_volume": 9233,
+    "keyword_difficulty": 25,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/arbeitsvertrag-welche-inhalte-sind-wichtig"
+  },
+  {
+    "id": "recpEj1SIaxmdsoYS",
+    "keyword": "time-to-hire verkürzen",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/die-stellenausschreibung-als-wichtiges-tool-im-bewerbermanagement"
+  },
+  {
+    "id": "recpH8mHvYYxDW1pp",
+    "keyword": "personalmangel pflege",
+    "search_volume": 0,
+    "keyword_difficulty": 25,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/zeitarbeit-in-der-pflege-vor-und-nachteile"
+  },
+  {
+    "id": "recpO5BgqaPvL0k5N",
+    "keyword": "akquise-gespräch",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/leitfaden-fur-die-telefonakquise-so-gehts"
+  },
+  {
+    "id": "recpT8KDPwQtGsHrk",
+    "keyword": "kapitalbedarfsplanung zeitarbeit",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/zeitarbeitsfirma-startkapital"
+  },
+  {
+    "id": "recpXoLKvZvcdJjwv",
+    "keyword": "full-service factoring",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "commercial",
+    "blog_url": "https://zvoove.de/wissen/blog/factoring-personaldienstleistung-interview-mit-albert-siems-zvoove-cashlink"
+  },
+  {
+    "id": "recpeqfMtxYXDbV3E",
+    "keyword": "elektronisches meldeverfahren",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/das-wichtigste-zum-eau-verfahren-fur-arbeitgeber"
+  },
+  {
+    "id": "recpfwB2Up6ce5Kfj",
+    "keyword": "hr-trends",
+    "search_volume": 0,
+    "keyword_difficulty": 12,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/zukunft-personal-europe-2023-das-erwartet-sie"
+  },
+  {
+    "id": "recpjyT8N1qHSL5vD",
+    "keyword": "leiharbeit pflege",
+    "search_volume": 0,
+    "keyword_difficulty": 27,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/verbot-von-zeitarbeit-in-der-pflege-neue-forderungen-werden-laut"
+  },
+  {
+    "id": "recqDZO1FCW4Kv7UD",
+    "keyword": "stellenanzeigen erstellen",
+    "search_volume": 0,
+    "keyword_difficulty": 33,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "commercial",
+    "blog_url": "https://zvoove.de/wissen/blog/peinliche-fehler-in-stellenanzeigen-vermeiden"
+  },
+  {
+    "id": "recqbxlPVrr8hkN67",
+    "keyword": "produktivitätskennzahlen",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/arbeitsproduktivitat-messen-wie-effektiv-ist-der-einsatz-des-faktors-arbeit"
+  },
+  {
+    "id": "recqkHnhoiorHtjv9",
+    "keyword": "zeitarbeitsverbände",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/woran-erkennt-man-eine-gute-zeitarbeitsfirma"
+  },
+  {
+    "id": "recqpqd6yaLH3Ofpo",
+    "keyword": "lohnkosten zeitarbeit",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/buergergeld-als-job-killer-in-der-gebaeudedienstleistung"
+  },
+  {
+    "id": "recqui5tMTUjxvjCg",
+    "keyword": "ki-audit",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/ki-und-ethik-so-meistern-unternehmen-ethische-herausforderungen"
+  },
+  {
+    "id": "recqx4q5IKK2C9crV",
+    "keyword": "innovationsevent personaldienstleistung",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "commercial",
+    "blog_url": "https://zvoove.de/wissen/blog/innolab-25-zeigt-was-die-branche-bewegt"
+  },
+  {
+    "id": "recr62XZm4TU6NFze",
+    "keyword": "renteneintritt",
+    "search_volume": 807,
+    "keyword_difficulty": 40,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/rentner-kampf-gegen-fachkraftemangel"
+  },
+  {
+    "id": "recr7x0W2AmftV41i",
+    "keyword": "saisonale auftragsspitzen",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "commercial",
+    "blog_url": "https://zvoove.de/wissen/blog/zeitarbeit-sorgt-im-weihnachtsgeschaeft-fuer-entlastung"
+  },
+  {
+    "id": "recr8o8OqWUCczI3g",
+    "keyword": "schriftformerfordernis zeitarbeit",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/neuheiten-in-der-personaldienstleistung-im-kommenden-jahr"
+  },
+  {
+    "id": "recrG8W0rH4zjn7pj",
+    "keyword": "arbeitszeitkonto",
+    "search_volume": 1154,
+    "keyword_difficulty": 1,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/aktuelles-urteil-zum-abzug-von-minusstunden"
+  },
+  {
+    "id": "recrGLNK2fM1hqjwp",
+    "keyword": "mitarbeiterführung",
+    "search_volume": 4270,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/mitarbeitergesprach-leitfaden-der-3-phasen-plan"
+  },
+  {
+    "id": "recrVr2867kHGkwTu",
+    "keyword": "predictive analytics",
+    "search_volume": 2077,
+    "keyword_difficulty": 43,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/mit-daten-in-die-zukunft-blicken-was-ist-predictive-analytics"
+  },
+  {
+    "id": "recrhUvZcKI9zDYPr",
+    "keyword": "personenbezogene daten schützen",
+    "search_volume": 0,
+    "keyword_difficulty": 29,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/personenbezogene-daten-schutzen-praktische-tipps"
+  },
+  {
+    "id": "recrkItGGzFYdRk8V",
+    "keyword": "recruiting trends",
+    "search_volume": 0,
+    "keyword_difficulty": 12,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/zvoove-gvp-industry-pulse-2025-die-wichtigsten-ergebnisse-fuer-die-personaldienstleistung"
+  },
+  {
+    "id": "recrtjgqdxT3Hghfl",
+    "keyword": "zielvereinbarung",
+    "search_volume": 1500,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/mitarbeitergesprach-fragenkatalog-und-tipps"
+  },
+  {
+    "id": "recs3AVAV0W9pnCtt",
+    "keyword": "zeitarbeit vertrieb",
+    "search_volume": 115,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/leitfaden-fur-die-telefonakquise-so-gehts"
+  },
+  {
+    "id": "recs4NzpIEu1DKJwB",
+    "keyword": "lohnsteuerbescheinigung",
+    "search_volume": 27469,
+    "keyword_difficulty": 12,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/steuererklarung-abgabepflicht-fur-kurzarbeiter"
+  },
+  {
+    "id": "recs6GmMphqewyxfa",
+    "keyword": "arbeitnehmerüberlassungsgesetz",
+    "search_volume": 1269,
+    "keyword_difficulty": 44,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/urteil-zum-konzernprivileg-personaldienstleistung"
+  },
+  {
+    "id": "recs6N7Z7H901JXUA",
+    "keyword": "equal-pay-berechnung",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/gesetzliches-und-tarifliches-equal-pay-richtig-umsetzen"
+  },
+  {
+    "id": "recsB9GKSnPWLPIz2",
+    "keyword": "lohnfortzahlung personaldienstleister",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/kranke-zeitarbeitnehmer-praxistipps-fur-personaldienstleister"
+  },
+  {
+    "id": "recsBpMPRbI9hatvU",
+    "keyword": "mitarbeiterfluktuation",
+    "search_volume": 807,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/gehen-oder-bleiben-warum-mitarbeiter-kuendigen"
+  },
+  {
+    "id": "recsistgM9rbFn98s",
+    "keyword": "mobile zeiterfassung",
+    "search_volume": 0,
+    "keyword_difficulty": 2,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/mit-digitalen-arbeitsscheinen-in-die-zukunft"
+  },
+  {
+    "id": "recsjt953AILMGNWg",
+    "keyword": "quantitative personalbedarfsermittlung",
+    "search_volume": 115,
+    "keyword_difficulty": 40,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/bruttopersonalbedarf-bestimmen"
+  },
+  {
+    "id": "rect0tN1709gW6xqU",
+    "keyword": "recruiting-prozess",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/das-aida-modell-im-recruiting-prozess"
+  },
+  {
+    "id": "rect23yH1HcWEvlQd",
+    "keyword": "branchenstudie personaldienstleister",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/industry-pulse-2025-branchenstudie-zeitarbeit-teilnehmen"
+  },
+  {
+    "id": "rectCyLnwJRbFYSja",
+    "keyword": "zeitarbeit tarifvertrag",
+    "search_volume": 115,
+    "keyword_difficulty": 20,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "transactional",
+    "blog_url": "https://zvoove.de/wissen/blog/tarifimport-jetzt-verfuegbar-umsetzung-neues-gvp-tarifwerk"
+  },
+  {
+    "id": "recteuybzXOi5pgaN",
+    "keyword": "tariflohn zeitarbeit",
+    "search_volume": 0,
+    "keyword_difficulty": 24,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/neue-lohnuntergrenze-in-der-personaldienstleistung"
+  },
+  {
+    "id": "rectkQxBp0p4oCXiy",
+    "keyword": "best practices hr",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/die-wichtigsten-instrumente-im-personalcontrolling-benchmarking"
+  },
+  {
+    "id": "rectoxmXMvb0GOMhX",
+    "keyword": "flexirente",
+    "search_volume": 807,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/rentner-kampf-gegen-fachkraftemangel"
+  },
+  {
+    "id": "rectqYANKsd8i1B9o",
+    "keyword": "hr-messe",
+    "search_volume": 0,
+    "keyword_difficulty": 3,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "commercial",
+    "blog_url": "https://zvoove.de/wissen/blog/zukunft-personal-europe-2024-pflichttermin"
+  },
+  {
+    "id": "rectqlaqc4qsqap4G",
+    "keyword": "wunschkandidat finden",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/wunschkandidaten-mit-candidate-personas-finden-und-ueberzeugen"
+  },
+  {
+    "id": "recuCy9ZIhTef3Pys",
+    "keyword": "bewerbungsabsage",
+    "search_volume": 115,
+    "keyword_difficulty": 4,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/absage-nach-vorstellungsgespraech"
+  },
+  {
+    "id": "recuQA7uDtMz6lESR",
+    "keyword": "managed payroll service",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "commercial",
+    "blog_url": "https://zvoove.de/wissen/blog/managed-services-gegen-transformationsdruck-und-fachkraeftemangel"
+  },
+  {
+    "id": "recuU5Ll3T4UVnMFI",
+    "keyword": "demografischer wandel",
+    "search_volume": 6925,
+    "keyword_difficulty": 21,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/hr-controlling-zur-absicherung-gegen-demografische-risiken"
+  },
+  {
+    "id": "recuWSXGoFLFyh5Qh",
+    "keyword": "gvp-tarif",
+    "search_volume": 1038,
+    "keyword_difficulty": 0,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "transactional",
+    "blog_url": "https://zvoove.de/wissen/blog/tarifimport-jetzt-verfuegbar-umsetzung-neues-gvp-tarifwerk"
+  },
+  {
+    "id": "recuWod9SuTOgkz0M",
+    "keyword": "lohnbuchhaltung outsourcing",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "commercial",
+    "blog_url": "https://zvoove.de/wissen/blog/zvoove-die-erfolgsgeschichte-a-team"
+  },
+  {
+    "id": "recun6j3PugbsIYqg",
+    "keyword": "lohnuntergrenze zeitarbeit",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/neue-lohnuntergrenze-in-der-personaldienstleistung"
+  },
+  {
+    "id": "recuqxSlXmcNUmTTK",
+    "keyword": "agg-konforme stellenanzeige",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/stellenanzeige-m-w-d-richtige-ansprache-des-dritten-geschlechts"
+  },
+  {
+    "id": "recuvvUQG1P5TIdQE",
+    "keyword": "ausgleichsabgabe",
+    "search_volume": 115,
+    "keyword_difficulty": 42,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/ausgleichsabgabe-fuer-unternehmen-steigt"
+  },
+  {
+    "id": "recv2H7w91Mk4H13K",
+    "keyword": "cloudbasierte infrastruktur",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/zeitarbeit-orientierung-mit-dem-digitalisierungsnavigator"
+  },
+  {
+    "id": "recv4xIbRhNEPcIkg",
+    "keyword": "digitale unfallanzeige",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/arbeitsunfaelle-elektronisch-melden"
+  },
+  {
+    "id": "recvH7x9QiayY1Ph4",
+    "keyword": "drittes geschlecht stellenanzeige",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/stellenanzeige-m-w-d-richtige-ansprache-des-dritten-geschlechts"
+  },
+  {
+    "id": "recvHU4M428YHCHiY",
+    "keyword": "atypische beschäftigung",
+    "search_volume": 346,
+    "keyword_difficulty": 20,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/arbeitnehmerrechte-auserhalb-unbefristeter-vollzeitstellen"
+  },
+  {
+    "id": "recvWcgY5Sdom0heU",
+    "keyword": "pflegequalität zeitarbeit",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/verbot-von-zeitarbeit-in-der-pflege-neue-forderungen-werden-laut"
+  },
+  {
+    "id": "recvZrMookx6uye59",
+    "keyword": "ki-pilotprojekte",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/ki-im-unternehmen-stolpersteine"
+  },
+  {
+    "id": "recvgdW78zIFEOV0v",
+    "keyword": "digitale personalakte",
+    "search_volume": 1154,
+    "keyword_difficulty": 0,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "commercial",
+    "blog_url": "https://zvoove.de/wissen/blog/digitale-personalakte-fuer-personaldienstleister"
+  },
+  {
+    "id": "recvilMRXWQgP65tn",
+    "keyword": "startkapital zeitarbeit",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/zeitarbeitsfirma-startkapital"
+  },
+  {
+    "id": "recvphz2WZCDSERI5",
+    "keyword": "steuererklärung kurzarbeitergeld",
+    "search_volume": 115,
+    "keyword_difficulty": 0,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/steuererklarung-abgabepflicht-fur-kurzarbeiter"
+  },
+  {
+    "id": "recvtUuhn6DXHgD4t",
+    "keyword": "personalprozesse effizient gestalten",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/die-wichtigsten-instrumente-im-personalcontrolling-benchmarking"
+  },
+  {
+    "id": "recvvdIqEBNmhDlqo",
+    "keyword": "konfliktmanagement",
+    "search_volume": 1038,
+    "keyword_difficulty": 7,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/ich-erwarte-was-was-du-nicht-weist-erfolgreiches-erwartungsmanagement"
+  },
+  {
+    "id": "recwbLpeiqK2HR3ch",
+    "keyword": "nettopersonalbedarf",
+    "search_volume": 230,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/brutto-personalbedarf-und-netto-personalbedarf"
+  },
+  {
+    "id": "recwcThcWb1PIEGuL",
+    "keyword": "auftragsabwicklung digitalisieren",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/mit-digitalen-arbeitsscheinen-in-die-zukunft"
+  },
+  {
+    "id": "recwlLwAVZdqSMc0x",
+    "keyword": "zeitarbeit prozessoptimierung",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "commercial",
+    "blog_url": "https://zvoove.de/wissen/blog/zvoove-kundenreferenz-emswork"
+  },
+  {
+    "id": "recwzBchaRJx5Iug2",
+    "keyword": "textform arbeitsrecht",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/digitale-gehaltsabrechnung-bundesarbeitsgericht-staerkt-rechtssicherheit-zvoove"
+  },
+  {
+    "id": "recx4dsir3fZz3pTg",
+    "keyword": "automatisierung lohnabrechnung",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "commercial",
+    "blog_url": "https://zvoove.de/wissen/blog/zvoove-im-kundeneinsatz-die-erfolgsgeschichte-isk"
+  },
+  {
+    "id": "recx7TGIlOnzDiRz0",
+    "keyword": "feedbackgespräch",
+    "search_volume": 807,
+    "keyword_difficulty": 0,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/mitarbeitergesprach-leitfaden-der-3-phasen-plan"
+  },
+  {
+    "id": "recxRONJ9tYUeSjHD",
+    "keyword": "zeitarbeit abrechnung",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "commercial",
+    "blog_url": "https://zvoove.de/wissen/blog/zvoove-im-kundeneinsatz-die-erfolgsgeschichte-somi-experts"
+  },
+  {
+    "id": "recxS4V92KV7zulXv",
+    "keyword": "effektive prompts",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/richtig-prompten-mit-generativer-ki"
+  },
+  {
+    "id": "recxSiG3TONZ7H4U8",
+    "keyword": "cloud software zeitarbeit",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "commercial",
+    "blog_url": "https://zvoove.de/wissen/blog/zvoove-im-kundeneinsatz-hygeia-med"
+  },
+  {
+    "id": "recxSvftVNEJfoKo2",
+    "keyword": "zeitarbeit software",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "commercial",
+    "blog_url": "https://zvoove.de/wissen/blog/zvoove-im-kundeneinsatz-die-erfolgsgeschichte-mks-gmbh"
+  },
+  {
+    "id": "recxUHG87de8BTvKh",
+    "keyword": "dsgvo umsetzung",
+    "search_volume": 0,
+    "keyword_difficulty": 55,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/personenbezogene-daten-schutzen-praktische-tipps"
+  },
+  {
+    "id": "recxYO6NIPvAuemEn",
+    "keyword": "assessment center",
+    "search_volume": 7386,
+    "keyword_difficulty": 13,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/assessment-center-pro-und-contra"
+  },
+  {
+    "id": "recxZ5RiCbyfpng50",
+    "keyword": "absageschreiben vorlage",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/absage-nach-vorstellungsgespraech"
+  },
+  {
+    "id": "recxZnj0CEqBKXBfC",
+    "keyword": "software für zeitarbeit",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "commercial",
+    "blog_url": "https://zvoove.de/wissen/blog/zvoove-im-kundeneinsatz-wromidt-personal"
+  },
+  {
+    "id": "recxnLlyMBdkAtECO",
+    "keyword": "bewerberdaten verarbeiten",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/datenschutz-im-bewerbungsverfahren-was-mussen-recruiter-unbedingt-beachten"
+  },
+  {
+    "id": "recy1NyeDYL0ZDrat",
+    "keyword": "factoring für personaldienstleister",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "commercial",
+    "blog_url": "https://zvoove.de/wissen/blog/liquiditaet-sichern-factoring-personaldienstleister"
+  },
+  {
+    "id": "recy6gcRR9Jf0q7wn",
+    "keyword": "zeitarbeit entgelt",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/branchenzuschlaege-fuer-zeitarbeitende"
+  },
+  {
+    "id": "recyEAGkONK04OXGU",
+    "keyword": "aüg reform pflege",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/zeitarbeit-in-der-pflege-vor-und-nachteile"
+  },
+  {
+    "id": "recyGdygYq0hVXBiZ",
+    "keyword": "agg konforme absage",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/absage-nach-vorstellungsgespraech"
+  },
+  {
+    "id": "recyL2sTC7xaG6EQr",
+    "keyword": "attraktiver lebenslauf",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/der-perfekte-lebenslauf"
+  },
+  {
+    "id": "recyQltrXixhRn9Nn",
+    "keyword": "lohnabrechnung zeitarbeit",
+    "search_volume": 0,
+    "keyword_difficulty": 44,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "transactional",
+    "blog_url": "https://zvoove.de/wissen/blog/tarifimport-jetzt-verfuegbar-umsetzung-neues-gvp-tarifwerk"
+  },
+  {
+    "id": "recyRoAIOvKzbQ8le",
+    "keyword": "stellenanzeigen schalten",
+    "search_volume": 115,
+    "keyword_difficulty": 56,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "commercial",
+    "blog_url": "https://zvoove.de/wissen/blog/ende-von-facebook-jobs-das-ist-eine-starke-alternative"
+  },
+  {
+    "id": "recyYwugxgIl3cKvz",
+    "keyword": "progressionsvorbehalt",
+    "search_volume": 6347,
+    "keyword_difficulty": 3,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/steuererklarung-abgabepflicht-fur-kurzarbeiter"
+  },
+  {
+    "id": "recyaF37wNPwXHfb5",
+    "keyword": "digitalisierung zeitarbeit",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "commercial",
+    "blog_url": "https://zvoove.de/wissen/blog/innolab-25-zeigt-was-die-branche-bewegt"
+  },
+  {
+    "id": "recyaz5XltZ019fVW",
+    "keyword": "lohnnebenkosten sparen",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/zeitarbeitnehmende-bestimmter-branchen-erhalten-nun-auch-die-inflationsausgleichpramie"
+  },
+  {
+    "id": "recysL3QG6gnNTSDj",
+    "keyword": "bewerbermanagement",
+    "search_volume": 346,
+    "keyword_difficulty": 15,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "commercial",
+    "blog_url": "https://zvoove.de/wissen/blog/zvoove-auf-der-staffingpro-2025-ki-revolution-im-recruiting-live-erleben"
+  },
+  {
+    "id": "recz03uCQo95wztuE",
+    "keyword": "finanzplan zeitarbeit",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/businessplan-zeitarbeitsfirma"
+  },
+  {
+    "id": "recz5CcpSuRXFRsWp",
+    "keyword": "xrechnung",
+    "search_volume": 6809,
+    "keyword_difficulty": 42,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/digitale-rechnungsstellung-ein-meilenstein-in-der-gebaeudereinigungsbranche"
+  },
+  {
+    "id": "recz7rqVOKHSVX1zW",
+    "keyword": "vorstellungsgespräch",
+    "search_volume": 8425,
+    "keyword_difficulty": 23,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/fragen-luegen-im-vorstellungsgespraech"
+  },
+  {
+    "id": "reczBU5q8r8Fi4H5y",
+    "keyword": "allgemeines gleichbehandlungsgesetz",
+    "search_volume": 2077,
+    "keyword_difficulty": 56,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/fragen-luegen-im-vorstellungsgespraech"
+  },
+  {
+    "id": "reczEuBLFV4vuhM6j",
+    "keyword": "existenzgründung zeitarbeit",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/businessplan-zeitarbeitsfirma"
+  },
+  {
+    "id": "reczPE9flxUgos2dP",
+    "keyword": "schadensersatzklage bewerbung",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/bewerbungsabsage-klagen-vermeiden"
+  },
+  {
+    "id": "reczVIVF0sQGy4OZC",
+    "keyword": "mitarbeiter motivieren",
+    "search_volume": 1269,
+    "keyword_difficulty": 6,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/finanzielle-anreize-fur-mitarbeiter-schaffen"
+  },
+  {
+    "id": "reczcmhSf1PNRnJSM",
+    "keyword": "dsgvo bewerbermanagement",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Primary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/datenschutz-im-bewerbungsverfahren-was-mussen-recruiter-unbedingt-beachten"
+  },
+  {
+    "id": "reczjskwZtUsYH1VC",
+    "keyword": "entgeltfortzahlung",
+    "search_volume": 692,
+    "keyword_difficulty": 19,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/das-wichtigste-zum-eau-verfahren-fur-arbeitgeber"
+  },
+  {
+    "id": "recznmsXunoFK5Swy",
+    "keyword": "krankmeldung zeitarbeit",
+    "search_volume": 0,
+    "keyword_difficulty": 27,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/kranke-zeitarbeitnehmer-praxistipps-fur-personaldienstleister"
+  },
+  {
+    "id": "reczrPsYgyJRkby2P",
+    "keyword": "aufbewahrungsfristen verkürzen",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/neues-burokratieentlastungsgesetz-eckpunkte-festgelegt"
+  },
+  {
+    "id": "reczzPQZe028h9Zie",
+    "keyword": "rentner als arbeitskräfte",
+    "search_volume": 0,
+    "keyword_difficulty": 0,
+    "keyword_category": "Secondary Keyword",
+    "search_intent": "informational",
+    "blog_url": "https://zvoove.de/wissen/blog/rentner-kampf-gegen-fachkraftemangel"
+  }
+]
